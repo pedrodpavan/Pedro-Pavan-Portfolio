@@ -1,0 +1,158 @@
+#h-lateral-base {
+    position: absolute;
+    background-color: #FFF9F9;
+    top: 7vw;
+    /* Definindo top como 0 para começar desde o topo da página */
+    width: 10.2vw;
+    /* 196px convertido para vw */
+    height: 100vh;
+    /* Definindo height para 100vh para ocupar 100% da altura da tela */
+    border-radius: 0.1vw;
+    border-right: solid 0.1vw #C3C3C3;
+    z-index: 8;
+    box-shadow: 0.1vw 1vw 20px 0.1vw rgba(66, 66, 66, 0.168);
+}
+
+#button-urban,
+#button-nature,
+#button-sky,
+#button-minimalist,
+#button-flowers,
+#button-darkness {
+    position: absolute;
+    height: 2.3vw;
+    /* 45px convertido para vw */
+    left: 0.8vw;
+    /* 15px convertido para vw */
+    transition: 0.3s ease;
+    border-radius: 0.2vw;
+    /* 3px convertido para vw */
+    box-shadow: 0vw 0.2vw 3px 0.1vw rgba(66, 66, 66, 0.093);
+}
+
+#button-urban {
+    top: 6.2vw;
+    /* 123px convertido para vw */
+}
+
+#button-nature {
+    top: 2.9vw;
+    /* 55px convertido para vw */
+}
+
+#button-sky {
+    top: 9.8vw;
+    /* 189px convertido para vw */
+}
+
+#button-minimalist {
+    top: 13.4vw;
+    /* 256px convertido para vw */
+}
+
+#button-flowers {
+    top: 16.8vw;
+    /* 323px convertido para vw */
+}
+
+#button-darkness {
+    top: 20.4vw;
+    /* 390px convertido para vw */
+}
+
+#button-urban:hover,
+#button-nature:hover,
+#button-sky:hover,
+#button-minimalist:hover,
+#button-flowers:hover,
+#button-darkness:hover {
+    transition: 0.3s ease;
+    left: 1vw;
+    /* 20px convertido para vw */
+    filter: grayscale(20%);
+    cursor: pointer;
+    height: 2.3vw;
+    /* 45px convertido para vw */
+}
+
+@media (min-width: 1230px) {
+    #h-lateral-base {
+        position: absolute;
+        background-color: #FFF9F9;
+        top: 100px;
+        /* 6.7vw convertido para px */
+        border-radius: 2px;
+        /* 0.1vw convertido para px */
+        border-right: solid 2px #C3C3C3;
+        /* 0.1vw convertido para px */
+        width: 196px;
+        /* 10.2vw convertido para px */
+        height: 800px;
+        /* 41.7vw convertido para px */
+        z-index: 8;
+        box-shadow: 2px 19px 20px 2px rgba(66, 66, 66, 0.168);
+        /* 0.1vw 1vw convertido para px */
+    }
+
+    #button-urban,
+    #button-nature,
+    #button-sky,
+    #button-minimalist,
+    #button-flowers,
+    #button-darkness {
+        height: 45px;
+        /* 2.3vw convertido para px */
+        left: 15px;
+        /* 0.8vw convertido para px */
+        transition: 0.3s ease;
+        border-radius: 3px;
+        /* 0.2vw convertido para px */
+        box-shadow: 0px 3px 3px 1px rgba(66, 66, 66, 0.093);
+        /* 0vw 0.2vw convertido para px */
+    }
+
+    #button-urban {
+        top: 123px;
+        /* 6.2vw convertido para px */
+    }
+
+    #button-nature {
+        top: 55px;
+        /* 2.9vw convertido para px */
+    }
+
+    #button-sky {
+        top: 189px;
+        /* 9.8vw convertido para px */
+    }
+
+    #button-minimalist {
+        top: 256px;
+        /* 13.4vw convertido para px */
+    }
+
+    #button-flowers {
+        top: 323px;
+        /* 16.8vw convertido para px */
+    }
+
+    #button-darkness {
+        top: 390px;
+        /* 20.4vw convertido para px */
+    }
+
+    #button-urban:hover,
+    #button-nature:hover,
+    #button-sky:hover,
+    #button-minimalist:hover,
+    #button-flowers:hover,
+    #button-darkness:hover {
+        transition: 0.3s ease;
+        left: 20px;
+        /* 1vw convertido para px */
+        filter: grayscale(20%);
+        cursor: pointer;
+        height: 45px;
+        /* 2.3vw convertido para px */
+    }
+}
