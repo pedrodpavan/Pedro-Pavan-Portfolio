@@ -114,8 +114,8 @@ body {
     height: 90vw;
     width: 80vw;
     border-radius: 1vw;
-
-    box-shadow: 0 0 1em rgb(209, 208, 208);
+    border: solid 3px rgb(226, 226, 226);
+ 
 }
 
 
