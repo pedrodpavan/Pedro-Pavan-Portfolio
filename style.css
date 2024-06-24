@@ -667,38 +667,65 @@ footer p {
         
 }
 #principal h1 {
-    top: 24vw;
-    left: 9vw;
-    font-size: 8vw;
+    top: 20vw;
+    left: 4vw;
+    font-size: 10vw;
 }
 #principal p {
-    top: 33vw;
-    left: 9.5vw;
-    font-size: 3vw;
+    top: 31vw;
+    left: 4.3vw;
+    font-size: 4vw;
 }
 
 #github-logo {
-    top: 38vw;
+    top: 37vw;
     height: 6vw;
-    left: 9.8vw;
+    left: 4.6vw;
     border-radius: 0px;
 
 }
 
 #oculos {
     position: absolute;
-    top: 22vw;
-    height: 20vw;
-    left: 68vw;
+    top: 20vw;
+    height: 25vw;
+    left: 72vw;
     border-radius: 10px;
 
 }
 
 #linkedin-logo {
     position: absolute;
-    top: 38vw;
+    top: 37vw;
     height: 6vw;
-    left: 17vw;
+    left: 13vw;
     border-radius: 0px;
+}
+
+#principal h2 {
+    position: absolute;
+    top: 56vw;
+    left: 23vw;
+    font-size: 5vw;
+
+}
+#secundário {
+    position: absolute;
+    background-color: #ffffff;
+    top: 62vw;
+    width: 100vw;
+    height: 50vw;
+
+}
+#base {
+    position: absolute;
+    background-color: #ffffff;
+    top: 5vw;
+    left: -1vw;
+    height: 40vw;
+    width: 102vw;
+ 
+
+    box-shadow: 0 0 1em rgb(209, 208, 208);
 }
 }
