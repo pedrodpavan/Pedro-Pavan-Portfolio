@@ -1,0 +1,704 @@
+:root {
+    --font-color: #222222;
+    --font-color2: rgb(255, 51, 0);
+
+}
+
+body {
+    background-color: #ffffff(228, 228, 228);
+    margin: 0;
+    font-family: 'Signika', sans-serif;
+}
+
+
+
+
+
+#principal {
+    background-color: #ffffff;
+    margin: 0;
+    top: 0vw;
+    height: 52vw;
+    width: 100vw;
+}
+
+#principal h1 {
+    position: absolute;
+    top: 24vw;
+    left: 11vw;
+    margin: 0;
+    font-size: 5vw;
+
+
+
+}
+
+#principal p {
+    position: absolute;
+    top: 30vw;
+    left: 11vw;
+    margin: 0;
+    font-size: 2.5vw;
+
+
+}
+
+#my {
+    position: absolute;
+    top: -10vw;
+    height: 66vw;
+    left: -23vw;
+
+
+
+}
+
+#github-logo {
+    position: absolute;
+    top: 35vw;
+    height: 4vw;
+    left: 11vw;
+    border-radius: 10px;
+
+}
+
+#oculos {
+    position: absolute;
+    top: 22vw;
+    height: 20vw;
+    left: 68vw;
+    border-radius: 10px;
+
+}
+
+#linkedin-logo {
+    position: absolute;
+    top: 35vw;
+    height: 4vw;
+    left: 17vw;
+    border-radius: 10px;
+
+}
+
+#secundário {
+    position: absolute;
+    background-color: #ffffff;
+    top: 59vw;
+    width: 100vw;
+    height: 50vw;
+
+}
+
+.categorias {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.categorias li {
+
+    position: relative;
+    top: 2vw;
+    font-size: 3vw;
+    margin: 2vw;
+    left: 6vw;
+    color: var(--font-color);
+    font-style: ;
+    display: inline-block;
+}
+
+#base {
+    position: absolute;
+    background-color: #ffffff;
+    top: 5vw;
+    left: 9.5vw;
+    height: 40vw;
+    width: 80vw;
+    border-radius: 1vw;
+
+    box-shadow: 0 0 1em rgb(209, 208, 208);
+}
+
+
+#principal h2 {
+    position: absolute;
+    top: 53vw;
+    left: 23vw;
+    margin: 0;
+    font-size: 5vw;
+    border-right: 2px solid #ff0513;
+    color: var(--font-color);
+    animation: pisca normal infinite .9s, escrever normal 5s steps(50) both;
+    max-width: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+#linha1 {
+    position: absolute;
+    top: 9vw;
+    left: 10.5vw;
+    background-color: #ff0513;
+    height: 0.6vw;
+    border-radius: 100px;
+    width: 53vw;
+    box-shadow: 0 0 1em rgb(231, 231, 231);
+}
+
+@keyframes pisca {
+    100% {
+        border-right-color: transparent;
+
+    }
+}
+
+@keyframes escrever {
+    100% {
+        max-width: 100%;
+    }
+}
+
+header li a {
+    color: var(--font-color);
+    font-style: none;
+    font-size: 5vw;
+  
+    text-decoration: none;
+
+}
+
+.cat {
+    transition: 1s
+}
+
+.cat:hover {
+
+    border-top: 3px solid #ff0513;
+
+
+}
+
+#texto-sobre {
+    position: absolute;
+    top: 13vw;
+    color: rgb(12, 12, 12);
+    font-size: 2vw;
+    left: 45vw;
+    max-width: 30vw;
+
+}
+
+#titu-sobre {
+    position: absolute;
+    top: 7vw;
+    color: #ff0513;
+    left: 45vw;
+    margin: 0;
+    font-size: 5vw;
+
+
+}
+
+
+#sec-progress {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 50vw;
+    width: 80vw;
+    top: 120vw;
+    left: 9.6vw;
+}
+
+#site-1 {
+    position: absolute;
+    background-color: rgba(243, 235, 235, 0);
+    top: 1vw;
+    height: 22vw;
+    width: 37vw;
+    border-radius: 10px;
+    box-shadow: 0 0 1em rgb(179, 179, 179);
+    transition: 0.2s;
+}
+
+.site-img {
+    position: absolute;
+    background-color: rgb(221, 221, 221);
+    top: 2vw;
+    left: 2vw;
+    height: 11vw;
+    width: 13vw;
+    border-radius: 10px;
+}
+
+.html5-img {
+    position: absolute;
+    top: 16.5vw;
+    left: 3.7vw;
+    height: 4vw;
+    border-radius: 10px;
+}
+
+.css-img {
+    position: absolute;
+    top: 16.5vw;
+    left: 8.7vw;
+    height: 4vw;
+    border-radius: 10px;
+}
+
+#site-1 h2 {
+    position: absolute;
+    top: -0.8vw;
+    left: 20vw;
+    font-size: 3vw;
+    color: var(--font-color);
+
+
+
+
+
+
+}
+
+#meus-projetos {
+    position: absolute;
+    top: -13vw;
+    left: 25vw;
+
+    font-size: 5vw;
+    color: var(--font-color);
+}
+
+.site-tecnologias {
+    position: absolute;
+    top: 12vw;
+    color: rgb(12, 12, 12);
+    font-size: 1.5vw;
+    left: 2.2vw;
+    max-width: 30vw;
+}
+
+.site-info {
+    position: absolute;
+    text-align: center;
+    top: 5.5vw;
+    left: 17.2vw;
+    font-size: 1.5vw;
+    max-width: 18vw;
+    color: var(--font-color);
+}
+
+.linha-site {
+    position: absolute;
+    top: 5.7vw;
+    left: 18.5vw;
+    background-color: #dddddd;
+    height: 0.1vw;
+    border-radius: 100px;
+    width: 15vw;
+    box-shadow: 0 0 1em rgb(179, 179, 179);
+}
+
+#site-2 {
+    position: absolute;
+    background-color: rgba(243, 235, 235, 0);
+    top: 1vw;
+    left: 43vw;
+    height: 22vw;
+    width: 37vw;
+    border-radius: 10px;
+
+    box-shadow: 0 0 1em rgb(179, 179, 179);
+    transition: 0.2s;
+}
+
+#site-2 h2 {
+    position: absolute;
+    top: -0.8vw;
+    left: 20vw;
+    font-size: 3vw;
+    color: var(--font-color);
+
+
+
+
+}
+
+#site-3 {
+    position: absolute;
+    background-color: rgba(243, 235, 235, 0);
+    top: 27vw;
+    left: 43vw;
+    height: 22vw;
+    width: 37vw;
+    border-radius: 10px;
+    box-shadow: 0 0 1em rgb(179, 179, 179);
+    transition: 0.2s;
+}
+
+#site-3 h2 {
+    position: absolute;
+    top: -0.8vw;
+    left: 20vw;
+    font-size: 3vw;
+    color: var(--font-color);
+
+}
+
+#site-4 {
+    position: absolute;
+    background-color: rgba(243, 235, 235, 0);
+    top: 27vw;
+    left: 0vw;
+    height: 22vw;
+    width: 37vw;
+    border-radius: 10px;
+    box-shadow: 0 0 1em rgb(179, 179, 179);
+    transition: 0.2s;
+}
+
+#site-4 h2 {
+    position: absolute;
+    top: -0.8vw;
+    left: 20vw;
+    font-size: 3vw;
+    color: var(--font-color);
+
+}
+
+#site-1:hover {
+    top: -0.2vw;
+    box-shadow: 0 0 1em rgb(131, 131, 131);
+}
+
+#site-2:hover {
+    top: -0.2vw;
+    box-shadow: 0 0 1em rgb(131, 131, 131);
+}
+
+#site-3:hover {
+    top: 26vw;
+    box-shadow: 0 0 1em rgb(131, 131, 131);
+}
+
+#site-4:hover {
+    top: 26vw;
+    box-shadow: 0 0 1em rgb(131, 131, 131);
+}
+
+
+
+
+#progresso {
+    position: absolute;
+    top: 190vw;
+    left: 10vw;
+    height: 60vw;
+    width: 80vw;
+}
+
+#progress-tite {
+    position: absolute;
+    color: rgb(39, 39, 39);
+    font-size: 6vw;
+    top: 182vw;
+    left: 30vw;
+}
+
+#progresso h2 {
+    position: absolute;
+    top: 6.5vw;
+    left: 12vw;
+}
+
+#html-progress {
+    position: absolute;
+    top: 7vw;
+    left: 1vw;
+    height: 10vw;
+    border-radius: 10px;
+
+    width: 78vw;
+    box-shadow: 0 0 1em rgb(179, 179, 179);
+}
+
+
+#html-progress img {
+    position: absolute;
+    top: 1vw;
+    left: 0.8vw;
+    height: 8vw;
+}
+
+#progress-bar-ex {
+    position: absolute;
+    background-color: rgb(231, 231, 231);
+    height: 1.6vw;
+    width: 65vw;
+    top: 14.5vw;
+    left: 12vw;
+    border-radius: 90px;
+
+
+}
+
+#progress-bar-ex div {
+    position: absolute;
+    background-color: #ff0513;
+    animation: escrever2 normal infinite, escrever normal 12s both;
+    max-width: 0%;
+    border-radius: 100px;
+    width: 70%;
+    height: 1.6vw;
+}
+
+
+
+.progress-info li {
+    position: relative;
+    top: 7.6vw;
+    font-size: 1.8vw;
+    margin: 3vw;
+    padding-left: 11vw;
+    left: -2vw;
+    color: var(--font-color);
+    font-style: ;
+    display: inline-block;
+}
+
+@keyframes escrever2 {
+    100% {
+        max-width: 100%;
+    }
+}
+
+#progresso-2 {
+    position: absolute;
+    top: 205vw;
+    left: 10vw;
+    height: 60vw;
+    width: 80vw;
+}
+
+#progresso-2 h2 {
+    position: absolute;
+    top: 6.5vw;
+    left: 12vw;
+}
+
+#progresso-2 img {
+    position: absolute;
+    left: 2vw;
+}
+
+#progress-2-bar-ex {
+    position: absolute;
+    background-color: rgb(231, 231, 231);
+    height: 1.6vw;
+    width: 65vw;
+    top: 14.5vw;
+    left: 12vw;
+    border-radius: 90px;
+
+
+}
+
+#progress-2-bar-ex div {
+    position: absolute;
+    background-color: #ff0513;
+    animation: escrever2 normal infinite, escrever normal 12s both;
+    max-width: 0%;
+    border-radius: 100px;
+    width: 60%;
+    height: 1.6vw;
+}
+
+
+#progresso-3 {
+    position: absolute;
+    top: 220vw;
+    left: 10vw;
+    height: 60vw;
+    width: 80vw;
+}
+
+#progresso-3 h2 {
+    position: absolute;
+    top: 6.5vw;
+    left: 12vw;
+}
+
+#progresso-3 img {
+    position: absolute;
+    height: 6vw;
+    border-radius: 9px;
+    top: 2vw;
+    left: 2vw;
+}
+
+#progress-3-bar-ex {
+    position: absolute;
+    background-color: rgb(231, 231, 231);
+    height: 1.6vw;
+    width: 65vw;
+    top: 14.5vw;
+    left: 12vw;
+    border-radius: 90px;
+
+
+}
+
+#progress-3-bar-ex div {
+    position: absolute;
+    background-color: #ff0513;
+    animation: escrever2 normal infinite, escrever normal 12s both;
+    max-width: 0%;
+    border-radius: 100px;
+    width: 3%;
+    height: 1.6vw;
+
+}
+
+
+#prox-estudos {
+    position: absolute;
+    height: 30vw;
+    width: 50vw;
+    top: 247vw;
+    left: 24vw;
+
+}
+
+
+#prox-estudos h2 {
+    position: absolute;
+    font-size: 4vw;
+    top: -2vw;
+    left: 9vw;
+
+
+}
+
+#react-img {
+    position: absolute;
+    color: #222222;
+    top: 10vw;
+    left: 2vw;
+    height: 8vw;
+}
+
+#type-img {
+    position: absolute;
+    color: #222222;
+    top: 10vw;
+    left: 20vw;
+    height: 8vw;
+}
+
+#node-img {
+    position: absolute;
+    color: #222222;
+    top: 10vw;
+    left: 35vw;
+    height: 8vw;
+}
+
+#react-text {
+    position: absolute;
+    left: 1.5vw;
+    top: 18vw;
+    font-size: 2vw;
+
+}
+
+#type-text {
+    position: absolute;
+    left: 19.7vw;
+    top: 18vw;
+    font-size: 2vw;
+
+}
+
+#node-text {
+    position: absolute;
+    left: 38vw;
+    top: 18vw;
+    font-size: 2vw;
+
+}
+
+footer {
+    position: absolute;
+    background-color: var();
+    top: 280vw;
+    height: 3vw;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 0 1em rgb(209, 208, 208);
+}
+
+footer p {
+    position: absolute;
+    top: -0.5vw;
+    left: 2vw;
+}
+
+
+@media (max-width: 450px) {
+
+    .categorias li {
+        left: -8vw;
+    }
+
+        #linha1 {
+            top: 12vw;
+            left: 4vw;
+            width: 40vw;
+        }
+    #principal {
+    background-color: #ffffff;
+    margin: 0;
+    top: 0vw;
+    height: 52vw;
+    width: 100vw;
+
+        
+}
+#principal h1 {
+    top: 24vw;
+    left: 9vw;
+    font-size: 8vw;
+}
+#principal p {
+    top: 33vw;
+    left: 9.5vw;
+    font-size: 3vw;
+}
+
+#github-logo {
+    top: 38vw;
+    height: 6vw;
+    left: 9.8vw;
+    border-radius: 0px;
+
+}
+
+#oculos {
+    position: absolute;
+    top: 22vw;
+    height: 20vw;
+    left: 68vw;
+    border-radius: 10px;
+
+}
+
+#linkedin-logo {
+    position: absolute;
+    top: 38vw;
+    height: 6vw;
+    left: 17vw;
+    border-radius: 0px;
+}
+}
