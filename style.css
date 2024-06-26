@@ -45,9 +45,9 @@ body {
 
 #my {
     position: absolute;
-    top: -10vw;
-    height: 225vw;
-    left: -28vw;
+    top: -0vw;
+    height: 309vw;
+    left: 0.3vw;
 
 
 
@@ -114,7 +114,7 @@ body {
     height: 90vw;
     width: 80vw;
     border-radius: 1vw;
-    border: solid 3px rgb(226, 226, 226);
+
  
 }
 
@@ -632,7 +632,7 @@ header li a {
 footer {
     position: absolute;
     background-color: var();
-    top: 280vw;
+    top: 400vw;
     height: 3vw;
     bottom: 0;
     width: 100%;
