@@ -9,7 +9,9 @@ body {
     margin: 0;
     font-family: 'Signika', sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 
@@ -167,7 +169,7 @@ body {
 #curso1Container img {
     top: 1.7vw;
     left: 2.5vw;
-    width: 14vw;
+    width: 14.6vw;
     height: 15vw;
 }
 
@@ -188,7 +190,7 @@ body {
 #curso2Container img {
     top: 1.7vw;
     left: 2.5vw;
-    width: 14vw;
+    width: 14.6vw;
     height: 15vw;
 }
 
@@ -211,7 +213,7 @@ body {
 #curso3Container img {
     top: 1.7vw;
     left: 2.5vw;
-    width: 14vw;
+    width: 14.6vw;
     height: 15vw;
 }
 
@@ -233,7 +235,7 @@ body {
 #curso4Container img {
     top: 1.7vw;
     left: 2.5vw;
-    width: 14vw;
+    width: 14.6vw;
     height: 15vw;
 }
 
@@ -255,7 +257,7 @@ body {
 #curso5Container img {
     top: 1.7vw;
     left: 2.5vw;
-    width: 14vw;
+    width: 14.6vw;
     height: 15vw;
 }
 
@@ -277,7 +279,7 @@ body {
 #curso6Container img {
     top: 1.7vw;
     left: 2.5vw;
-    width: 14vw;
+    width: 14.6vw;
     height: 15vw;
 }
 
