@@ -1,6 +1,6 @@
 :root {
     --font-color: #222222;
-    --font-color2: #6d07f2ff;
+    --font-roxo: #6D07F2;
 
 }
 
@@ -43,15 +43,144 @@ body {
 
 }
 
-#my {
+
+
+
+
+/*   Sobre Mim    */
+
+/*Imagem Personagem*/
+#my {  
     position: absolute;
-    top: -0vw;
-    height: 309vw;
-    left: 0.3vw;
+    top: 2vw;
+    height: 36vw;
+    left: -5vw;
+}
 
-
+#texto-sobre {
+    position: absolute;
+    top: 8vw;
+    color: #2F2F2F;
+    font-size: 3.2vw;
+    left: 38vw;
+    width: 200px;
 
 }
+
+#titu-sobre {
+    position: absolute;
+    top: 1vw;
+    color: #6D07F2;
+    left: 38vw;
+    margin: 0;
+    width: 171px;
+    font-size: 8vw;
+}
+
+
+
+
+
+/*   Formação Academica    */
+
+
+
+.tituloArea{
+    position: absolute;
+        top: 118vw;
+        color: var(--font-roxo);
+        left: 4vw;
+        margin: 0;
+        font-size: 8vw;
+}
+.containerCurso{
+    position: absolute;
+    top: 131vw;
+    left: 3.5vw;
+    height: 77px;
+    width: 92vw;
+    border-radius: 4px;
+    border: solid 1px #E4E4E4;
+    box-shadow: 0 0 2px  1px rgba(31, 31, 31, 0.08);
+}
+/*  Foto da Universidade  */
+.containerCurso img{
+    position: absolute;
+    top: 1vw;
+    left: 1.5vw;
+    height: 17vw;
+    width: 17vw;
+    border-radius: 4px;
+}
+/*  Nome da Universidade  */
+.containerCurso h1 {
+    position: absolute;
+    color: #2f2f2f;
+    top: -1vw;
+    left: 20vw;
+    font-size: 3.5vw;
+}
+/*  Curso da Formação  */
+.containerCurso p {
+    position: absolute;
+    color: #8d8d8d;
+    top: 7.5vw;
+    left: 20vw;
+    font-weight: 100;
+    font-size: 3vw;
+}
+/*  Data da Formação  */
+.containerCurso h2 {
+    position: absolute;
+    color: #8d8d8d;
+    top: -0.5vw;
+    left: 75vw;
+    font-weight: 100;
+     font-size: 3vw;
+}
+
+
+
+
+
+
+
+
+
+/*  Cursos  */
+
+
+
+/*  Curso 1  */
+#tituloCursos{
+    top: 170vw;
+}
+#curso1Container {
+    top: 183vw;
+}
+#curso1Container p{
+    top: 5vw;
+}
+#curso1Container h1 {
+    top: 1vw;
+}
+#curso1Container img {
+    top: 1.7vw;
+    left: 2.5vw;
+    width: 14vw;
+    height: 15vw;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 #github-logo {
     position: absolute;
@@ -79,6 +208,7 @@ body {
     border-radius: 10px;
 
 }
+
 
 #secundário {
     position: absolute;
@@ -178,26 +308,6 @@ header li a {
 
 }
 
-#texto-sobre {
-    position: absolute;
-    top: 13vw;
-    color: rgba(248, 0, 0, 0);
-    font-size: 2vw;
-    left: 45vw;
-    max-width: 30vw;
-
-}
-
-#titu-sobre {
-    position: absolute;
-    top: 7vw;
-    color: rgba(109, 7, 242, 0);
-    left: 45vw;
-    margin: 0;
-    font-size: 5vw;
-
-
-}
 
 
 #sec-progress {
@@ -715,25 +825,7 @@ footer p {
     height: 50vw;
 
 }
-#base {
-    top: 5vw;
-    left: -1vw;
 
-    width: 102vw;
-}
-
-#titu-sobre {
-    top: 3vw;
-    left: 45vw;
-    font-size: 6vw;
-}
-#texto-sobre {
-    position: absolute;
-    top: 13vw;
-    color: rgba(12, 12, 12, 0);
-    font-size: 2vw;
-    left: 45vw;
-    max-width: 30vw;
 
 }
 }
