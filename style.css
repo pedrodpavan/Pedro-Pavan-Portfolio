@@ -156,7 +156,7 @@ body {
     top: 170vw;
 }
 #curso1Container {
-    top: 183vw;
+    top: 186vw;
 }
 #curso1Container p{
     top: 5vw;
@@ -171,15 +171,115 @@ body {
     height: 15vw;
 }
 
+/*  Curso 2  */ 
+
+#curso2Container {
+    top: 210vw;
+}
+
+#curso2Container p {
+    top: 5vw;
+}
+
+#curso2Container h1 {
+    top: 1vw;
+}
+
+#curso2Container img {
+    top: 1.7vw;
+    left: 2.5vw;
+    width: 14vw;
+    height: 15vw;
+}
 
 
 
+/*  Curso 3  */
+
+#curso3Container {
+    top: 234vw;
+}
+
+#curso3Container p {
+    top: 5vw;
+}
+
+#curso3Container h1 {
+    top: 1vw;
+}
+
+#curso3Container img {
+    top: 1.7vw;
+    left: 2.5vw;
+    width: 14vw;
+    height: 15vw;
+}
 
 
+/*  Curso 4  */
+
+#curso4Container {
+    top: 258vw;
+}
+
+#curso4Container p {
+    top: 5vw;
+}
+
+#curso4Container h1 {
+    top: 1vw;
+}
+
+#curso4Container img {
+    top: 1.7vw;
+    left: 2.5vw;
+    width: 14vw;
+    height: 15vw;
+}
 
 
+/*  Curso 5  */
+
+#curso5Container {
+    top: 282vw;
+}
+
+#curso5Container p {
+    top: 5vw;
+}
+
+#curso5Container h1 {
+    top: 1vw;
+}
+
+#curso5Container img {
+    top: 1.7vw;
+    left: 2.5vw;
+    width: 14vw;
+    height: 15vw;
+}
 
 
+/*  Curso 6  */
+
+#curso6Container {
+    top: 306vw;
+}
+
+#curso6Container p {
+    top: 5vw;
+}
+
+#curso6Container h1 {
+    top: 1vw;
+}
+
+#curso6Container img {
+    top: 1.7vw;
+    left: 2.5vw;
+    width: 14vw;
+    height: 15vw;
+}
 
 
 #github-logo {
