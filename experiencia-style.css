@@ -90,3 +90,12 @@ top: 13vw;
     background-color: var(--font-roxo1);
     z-index: 1;
 }
+
+
+footer{
+position: absolute;
+    top: 133vw;
+    width: 100vw;
+    height: 10vw;
+    background-color: var(--font-roxo)
+}
