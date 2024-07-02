@@ -29,8 +29,11 @@ position: absolute;
     height: 28vw;
     width: 92vw;
     z-index: 2;
-    border: solid 1px #E4E4E4;
-    box-shadow: 0 0 2px 1px rgba(31, 31, 31, 0.08);
+    
+}
+.experienciaContainer:hover{
+border: solid 1px #E4E4E4;
+    box-shadow: 0 0 2px 1px rgba(31, 31, 31, 0.08)
 }
 .cargoExperiencia {
 position: absolute;
