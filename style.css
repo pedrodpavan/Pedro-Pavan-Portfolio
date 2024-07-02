@@ -102,8 +102,9 @@ html{
     left: 3.5vw;
     height: 77px;
     width: 92vw;
-   
-    border: solid 1px #E4E4E4;
+}
+.containerCurso:hover{
+border: solid 1px #E4E4E4;
     box-shadow: 0 0 2px  1px rgba(31, 31, 31, 0.08);
 }
 /*  Foto da Universidade  */
