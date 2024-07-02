@@ -1,7 +1,8 @@
 :root {
     --font-color: #141C3A;
     --font-roxo: #141C3A;
-    --font-roxo1: #6D07F2
+    --font-roxo1: #6D07F2;
+    --font-verde: #5BE9B9;
 
 }
 
@@ -14,7 +15,7 @@ body {
 }
 html{
     scroll-behavior: smooth;
-        overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 #principal {
@@ -31,9 +32,6 @@ html{
     left: 11vw;
     margin: 0;
     font-size: 5vw;
-
-
-
 }
 
 #principal p {
@@ -42,14 +40,7 @@ html{
     left: 11vw;
     margin: 0;
     font-size: 2.5vw;
-
-
 }
-
-
-
-
-
 /*   Sobre Mim    */
 
 /*Imagem Personagem*/
@@ -79,6 +70,9 @@ html{
     width: 171px;
     font-size: 8vw;
 }
+#universidadeContainer{
+        transition: 0.3s;
+}
 
 
 
@@ -96,19 +90,19 @@ html{
         margin: 0;
         font-size: 8vw;
 }
-.containerCurso{
+.containerCurso {
     position: absolute;
     top: 131vw;
     left: 3.5vw;
     height: 77px;
     width: 92vw;
-transition: 1s;
+    border: solid 1px transparent;
+    /* Adicione uma borda inicial */
+    transition: all 3s;
 }
-.containerCurso:hover{
-border: solid 1px black;
-    box-shadow: 0 0 2px  1px rgba(31, 31, 31, 0.08);
-    
-}
+
+
+
 /*  Foto da Universidade  */
 .containerCurso img{
     position: absolute;
@@ -144,6 +138,20 @@ border: solid 1px black;
     font-weight: 100;
      font-size: 3vw;
 }
+.containerCurso:hover {
+    background-color: var(--font-verde);
+    border-radius: 3px;
+    border: solid 1px rgb(224, 224, 224);
+    box-shadow: 0 0 2px 1px rgba(31, 31, 31, 0.08);
+    }
+
+  .containerCurso:hover h1{
+    color: var(--font-color);
+  }
+  .containerCurso:hover p,
+  .containerCurso:hover h2 {
+      color: rgb(87, 87, 87);
+  }
 
 
 
@@ -163,9 +171,11 @@ border: solid 1px black;
 }
 #curso1Container {
     top: 186vw;
+    transition: all 0.2s;
 }
 #curso1Container p{
     top: 5vw;
+    
 }
 #curso1Container h1 {
     top: 1vw;
@@ -181,6 +191,7 @@ border: solid 1px black;
 
 #curso2Container {
     top: 210vw;
+        transition: all 0.2s;
 }
 
 #curso2Container p {
@@ -204,6 +215,7 @@ border: solid 1px black;
 
 #curso3Container {
     top: 234vw;
+        transition: all 0.2s;
 }
 
 #curso3Container p {
@@ -333,7 +345,6 @@ border: solid 1px black;
 }
 
 .categorias li {
-
     position: relative;
     top: 2vw;
     font-size: 3vw;
