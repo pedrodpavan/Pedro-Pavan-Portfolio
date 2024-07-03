@@ -12,12 +12,178 @@ body {
     font-family: 'Signika', sans-serif;
     overflow-x: hidden;
     margin-bottom: 1100px;
+   
 }
+
+
+
+
+
+
+
+
+
+body.dark{
+    background-color: var(--font-color);
+}
+body.dark #principal{
+    background-color: var(--font-color);
+    color: white;
+}
+body.dark #principal h2{
+    color: white;
+}
+body.dark #secundário{
+    background-color: var(--font-color);
+}
+body.dark #categorias {
+    background-color: var(--font-color);
+}
+body.dark .cat {
+    color: white;
+}
+body.dark #texto-sobre {
+    color: #dfdfdf;
+}
+body.dark #titu-sobre {
+    color: var(--font-verde);
+}
+body.dark .containerCurso:hover{
+    color: black;
+}
+body.dark .containerCurso h1 {
+    color: white;
+}
+body.dark .containerCurso p {
+    color: rgb(187, 187, 187);
+}
+body.dark .tituloArea {
+    color: white;
+}
+body.dark .experienciaSessao {
+    background-color: var(--font-color);
+    
+}
+body.dark #experienciaTecnico {
+    background-color: var(--font-color);
+
+}
+body.dark #experienciaTecnico2 {
+    background-color: var(--font-color);
+}
+body.dark #experienciacftv {
+    background-color: var(--font-color);
+}
+body.dark #experienciaTitu {
+    color: white;
+}
+body.dark .cargoExperiencia {
+    color: white;
+}
+body.dark .empresaExperiencia {
+    color: rgb(180, 180, 180);
+}
+body.dark .descrisaoProfissao {
+    color: rgb(182, 182, 182);
+}
+body.dark .dataProfissao {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body.dark :root{
+    --font-roxo1:red;
+    background-color: var(--font-color);
+}
+.checkbox{
+    opacity: 0;
+    position: absolute;
+    
+}
+
+
+.label {
+    position: absolute;
+    background-color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    justify-content: space-between;
+    top: 55.1vw;
+    align-items: center;
+    display: flex;
+    left: 84vw;
+    height: 20px;
+    width: 40px;
+    padding: 2px;
+    transform: scale(1.1)
+
+}
+.label .ball{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.4px;
+    left: 3px;
+    height: 19px;
+    width: 19px;
+    transform: translate(0px);
+    transition: transform 0.2s linear;
+}
+.checkbox:checked + .label .ball{
+    transform: translateX(20px);
+}
+.fa-moon{
+    
+    color: var(--font-roxo1);
+}
+.fa-sun{
+    color: #f39c12;
+}
+
+
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+body.dark #principal h1{
+    color: white;
+}
 #principal {
     background-color: #ffffff;
     margin: 0;
@@ -37,7 +203,7 @@ html{
 #principal p {
     position: absolute;
     top: 30vw;
-    left: 11vw;
+    left: 111vw;
     margin: 0;
     font-size: 2.5vw;
 }
@@ -49,6 +215,7 @@ html{
     top: 2vw;
     height: 36vw;
     left: -5vw;
+    border-radius: 5px;
 }
 
 #texto-sobre {
@@ -69,7 +236,25 @@ html{
     margin: 0;
     width: 171px;
     font-size: 8vw;
+    transition: all 0.5s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #universidadeContainer{
         transition: 0.3s;
 }
@@ -141,6 +326,7 @@ html{
 .containerCurso:hover {
     background-color: var(--font-verde);
     border-radius: 3px;
+    color: black;
     border: solid 1px rgb(224, 224, 224);
     box-shadow: 0 0 2px 1px rgba(31, 31, 31, 0.08);
     }
@@ -150,7 +336,7 @@ html{
   }
   .containerCurso:hover p,
   .containerCurso:hover h2 {
-      color: rgb(87, 87, 87);
+      color: rgb(0, 0, 0);
   }
 
 
@@ -332,7 +518,7 @@ html{
 
 #secundário {
     position: absolute;
-    background-color: #ffffff;
+
     top: 59vw;
     width: 100vw;
     height: 50vw;
@@ -340,7 +526,6 @@ html{
 }
 
 .categorias {
-    background-color: #ffffff;
     margin: 0;
 }
 
@@ -356,7 +541,7 @@ html{
 
 #base {
     position: absolute;
-    background-color: #ffffff;
+
     top: 5vw;
     left: 9.5vw;
     height: 90vw;
@@ -367,10 +552,11 @@ html{
 
 #principal h2 {
     position: absolute;
-    top: 90vw;
-    left: 23vw;
+    top: 56vw;
+        left: 4vw;
+        font-size: 5vw;
     margin: 0;
-    font-size: 5vw;
+
     border-right: 2px solid #6d07f2ff;
     color: var(--font-color);
     animation: pisca normal infinite .9s, escrever normal 5s steps(50) both;
@@ -387,7 +573,7 @@ html{
     height: 0.6vw;
     border-radius: 100px;
     width: 53vw;
-    box-shadow: 0 0 1em rgb(231, 231, 231);
+   
 }
 
 @keyframes pisca {
@@ -438,7 +624,7 @@ footer {
     height: 3vw;
     bottom: 0;
     width: 100%;
-    box-shadow: 0 0 1em rgb(209, 208, 208);
+  
 }
 
 footer p {
@@ -446,6 +632,18 @@ footer p {
     top: -0.5vw;
     left: 2vw;
 }
+
+
+body.dark #titu-sobre {}
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 450px) {
@@ -506,13 +704,12 @@ footer p {
 
 #principal h2 {
     position: absolute;
-    top: 56vw;
-    left: 23vw;
-    font-size: 5vw;
+
 
 }
 #secundário {
     top: 62vw;
+    background-color: white;
     width: 100vw;
     height: 50vw;
 
