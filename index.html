@@ -2,41 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+        <title>Pedro Pavan</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="experiencia-style.css"/>
-    <title>Pedro Pavan</title>
+    <link rel="stylesheet" href="projetos-style.css" />
+    <link rel="stylesheet" href="contatoStyle.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
 </head>
+
+
 <body>
+
+<!--Header-->
     <header>
     <ul class="categorias">
-<li><a class="cat" href="#secundário">Sobre mim</a></li>
-<li><a class="cat" href="#pastel">Projetos</a></li>
-        <li><a class="cat" href="#progresso">Conhecimentos</a></li>
+    <li><a class="cat" href="#secundário">Sobre mim</a></li>
+    <li><a class="cat" href="#tituloProjetos">Projetos</a></li>
+    <li><a class="cat" href="#progresso">Contato</a></li>
     </ul>
-
-    <div>
-
-        <input type="checkbox" class="checkbox" id="chk" />
-        <label class="label" for="chk">
-            <i class="fas fa-moon"></i>
-            <i class="fas fa-sun"></i>
-            <div class="ball"></div>
-        
-    </div>
-
-
 </header>
 
+
+<!--Botão de Tema Escuro-->
+<div>
+    <input type="checkbox" class="checkbox" id="chk" />
+    <label class="label" for="chk">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <div class="ball"></div>
+</div>
 
     <section id="principal">
         <h1 >Pedro Pavan  </h1>
@@ -44,7 +46,6 @@
         <h2 id="aaa"> Olá! Seja Bem-Vindo!  =)</h2>
         <div id="linha1" ></div>
 
-      
             <img id="github-logo" src="images/38401.png">
             <img id="linkedin-logo" src="images/linkedin-logo.png">
             <img id="oculos" src="images/oculos.png">
@@ -129,11 +130,7 @@
     <h2>2023 - 2026</h2>
     <p>Microsoft Excel - Intermediário</p>
 </div>
-
 </section>
-            </section>
-
-
 
 <!--Experiencia Profissional-->
 
@@ -169,23 +166,62 @@
        </div>
 <div  data-aos="fade-up" data-aos-offset="460" id="barraVertical"></div>
 
+<img id="computadoresLogo" src="images/computadoresLogo.png">
 
+
+<!--Projetos-->
+<h1 id="tituloProjetos" >Projetos</h1>
+<section id="projetosContainer">
+    <div data-aos="fade-right" class="caixaProjetos" id="siteProjeto1" ></div>
+    <div data-aos="fade-right"" class="caixaProjetos" id="siteProjeto2" ></div>
+    <div data-aos="fade-right" class="caixaProjetos" id="siteProjeto3" ></div>
+    <div data-aos="fade-right" class="caixaProjetos" id="siteProjeto4" ></div>
+</section>
+
+
+<!--Contato-->
+<section id="contatoContainer" >
+    <div id="informacaoContato">
+        <h1>Informações de contato</h1>
+        <img   id="linkedinLogoContato"  class="contatoImagensContato"  src="images/linkedinLogo.png">
+        <img   id="gmailLogoContato"    class="contatoImagensContato" src="images/gmailLogo.png">
+    <button onclick="window.location.href='https://www.linkedin.com/in/pedroduarte11/'" class="caixaComContatos">
+        <p>linkedin.com/in/pedroduarte11</p>
+    </button>
+        <button  id="caixacontato2" onclick="window.location.href='mailto:pedrohdpavan@gmail.com'" class="caixaComContatos">
+            <p>pedrohdpavan@gmail.com</p>
+        </button>
+    </div>
+
+    <div id="formulario" >
+        <h1>Entre em contato comigo</h1>
+
+
+<form action="https://formsubmit.co/pedrohdpavan@gmail.com" method="POST">
+    <label class="labelFormulario" for="name">Nome</label>
+    <input class="caixaFormulario" type="text" name="name" placeholder="Nome ou Corporação" required>
+    <label class="labelFormulario"for="email">Email</label>
+    <input type="hidden" name="_captcha" value="false">
+    <input class="caixaFormulario" type="email" name="email" placeholder="Endereço de Email válido" required>
+    <label  class="labelFormulario"for="message">Mensagem</label>
+    <textarea id="caixaMensagem" class="caixaFormulario" name="message" placeholder="Digite aqui a mensagem que gostária de enviar"></textarea>
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+    <button id="botaoEnviar" type="submit">Enviar</button>
+</form>
+
+
+
+    </div>
+</section>
 
 
 
 <footer></footer>
-
-
-
-</section>
-
-
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
-    
-        }
-        );
+        
+        });
     </script>
     <script src="script.js" ></script>
     <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
