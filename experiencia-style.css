@@ -114,8 +114,9 @@ top: 13vw;
 
 footer{
 position: absolute;
-    top: 800vw;
+color: white;
+    top: 567vw;
     width: 100vw;
-    height: 10vw;
+    height: 20vw;
     background-color: var(--font-roxo)
 }

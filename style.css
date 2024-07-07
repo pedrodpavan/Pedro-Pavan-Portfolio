@@ -498,9 +498,22 @@ body.dark #principal h1{
     height: 4vw;
     left: 11vw;
     border-radius: 10px;
+    transition: 0.2s;
+}
+#github-logo:hover{
+    cursor: pointer;
+    filter: brightness(1) invert(2) sepia(0) hue-rotate(0) saturate(10) brightness(1);
+        /* Efeito para a cor azul */
+    transition: 0.2s;
+    top: 36.6vw;
 
 }
-
+ #linkedin-logo:hover {
+        cursor: pointer;
+            transition: 0.2s;
+            filter: brightness(1) invert(2) sepia(0) hue-rotate(0) saturate(10) brightness(1);
+            top: 36.6vw;
+ }
 #oculos {
     position: absolute;
     top: 22vw;

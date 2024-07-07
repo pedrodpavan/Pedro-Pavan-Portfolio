@@ -39,13 +39,15 @@ position: absolute;
 
 #linkedinLogoContato{
 position: absolute;
-    top: 42.5vw;
+    top: 44.5vw;
+    height: 5vw;
     left: 5vw;
 }
 #gmailLogoContato {
 position: absolute;
-    top: 73vw;
+    top: 71vw;
     left: 2.5vw;
+height: 13vw;
 }
 
 
@@ -78,13 +80,13 @@ input{
 }
 #formulario h1{
 position: absolute;
-    top: 5vw;
+    top: 3vw;
     color: #FFF;
     left: 3vw;
     margin: 0;
-    font-size: 10vw;
+    font-size: 11vw;
     font-family: inter;
-    width: 81vw;
+    width: 89vw;
 
 }
 
