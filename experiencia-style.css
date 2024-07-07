@@ -6,7 +6,7 @@ body{
 /* Tecnico em Eletroncia */
 #experienciaTitu {
     position: absolute;
-top: -2vw;
+    top: -2vw;
     color: var(--font-roxo);
     left: 4vw;
     margin: 0;
@@ -114,7 +114,7 @@ top: 13vw;
 
 footer{
 position: absolute;
-    top: 133vw;
+    top: 800vw;
     width: 100vw;
     height: 10vw;
     background-color: var(--font-roxo)

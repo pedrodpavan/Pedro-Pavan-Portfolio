@@ -1,0 +1,26 @@
+       #projetosContainer {
+           position: absolute;
+           bottom: -130vw;
+           height: 70vw;
+           width: 100%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-wrap: wrap;
+
+       }
+#tituloProjetos{
+    position: absolute;
+        top: 145vw;
+        color: var(--font-roxo);
+        left: 4vw;
+        margin: 0;
+        font-size: 8vw;
+}
+       .caixaProjetos {
+           margin: 2vw;
+           background-color: rgb(233, 233, 233);
+           height: 30vw;
+      
+           flex-basis: 44%;
+       }

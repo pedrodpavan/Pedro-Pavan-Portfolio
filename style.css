@@ -604,12 +604,11 @@ header li a {
 }
 
 .cat {
-    transition: 1s
+    transition: 0.1s
 }
 
 .cat:hover {
-
-    border-top: 3px solid var(--font-roxo1);
+    color: var(--font-roxo1);
 
 
 }
@@ -643,7 +642,12 @@ body.dark #titu-sobre {}
 
 
 
-
+#computadoresLogo{
+    position: absolute;
+    width: 90vw;
+    left: 5vw;
+    top: 260vw;
+}
 
 
 
