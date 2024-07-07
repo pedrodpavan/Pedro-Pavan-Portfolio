@@ -30,13 +30,16 @@ position: absolute;
     left: 3.5vw;
     height: 28vw;
     transition: all .10s;
-        transition: 0.3s;
+    transition: 0.3s;
     width: 92vw;
+    border: solid 1px rgb(238, 238, 238);
     z-index: 2;
 }
 .experienciaContainer:hover{
+        top: 60px;
         transition: all .10s;
-        border: solid 1px #E4E4E4;
+        border-radius: 3px;
+        border: solid 3px var(--font-roxo1);
         box-shadow: 0 0 2px 1px rgba(31, 31, 31, 0.08);
 }
 .cargoExperiencia {
@@ -86,6 +89,7 @@ z-index: 2;
 #experienciaTecnico{
         transition: 0.3s;
 }
+
 #experienciaTecnico2{
     top:53vw;
     transition: 0.3s;
@@ -102,6 +106,9 @@ top: 13vw;
     height: 102vw;
     background-color: var(--font-roxo1);
     z-index: 1;
+}
+#experienciaTecnico2:hover {
+    top: 200px;
 }
 
 

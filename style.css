@@ -1,7 +1,7 @@
 :root {
     --font-color: #141C3A;
     --font-roxo: #141C3A;
-    --font-roxo1: #6D07F2;
+    --font-roxo1: #02baf8;
     --font-verde: #5BE9B9;
 
 }
@@ -12,6 +12,7 @@ body {
     font-family: 'Signika', sans-serif;
     overflow-x: hidden;
     margin-bottom: 1100px;
+
    
 }
 
@@ -43,10 +44,10 @@ body.dark .cat {
     color: white;
 }
 body.dark #texto-sobre {
-    color: #dfdfdf;
+    color: #ffffff;
 }
 body.dark #titu-sobre {
-    color: var(--font-verde);
+    color: var(--font-roxo1);
 }
 body.dark .containerCurso:hover{
     color: black;
@@ -55,7 +56,7 @@ body.dark .containerCurso h1 {
     color: white;
 }
 body.dark .containerCurso p {
-    color: rgb(187, 187, 187);
+    color: rgb(255, 255, 255);
 }
 body.dark .tituloArea {
     color: white;
@@ -87,7 +88,7 @@ body.dark .descrisaoProfissao {
     color: rgb(182, 182, 182);
 }
 body.dark .dataProfissao {
-    color: white;
+    color: rgb(44, 44, 44);
 }
 
 
@@ -198,6 +199,7 @@ body.dark #principal h1{
     left: 11vw;
     margin: 0;
     font-size: 5vw;
+    transition: all 0.5s;
 }
 
 #principal p {
@@ -215,6 +217,7 @@ body.dark #principal h1{
     top: 2vw;
     height: 36vw;
     left: -5vw;
+    transition: all 0.5s;
     border-radius: 5px;
 }
 
@@ -225,13 +228,14 @@ body.dark #principal h1{
     font-size: 3.1vw;
     left: 38vw;
     width: 45vw;
+    transition: all 0.5s;
 
 }
 
 #titu-sobre {
     position: absolute;
     top: 1vw;
-    color: #6D07F2;
+    color: var(--font-roxo1);
     left: 38vw;
     margin: 0;
     width: 171px;
@@ -317,16 +321,16 @@ body.dark #principal h1{
 /*  Data da Formação  */
 .containerCurso h2 {
     position: absolute;
-    color: #8d8d8d;
+    color: #5f5f5f;
     top: -0.5vw;
     left: 75vw;
     font-weight: 100;
      font-size: 3vw;
 }
 .containerCurso:hover {
-    background-color: var(--font-verde);
+    background-color: var(--font-roxo1);
     border-radius: 3px;
-    color: black;
+    color: rgb(255, 255, 255);
     border: solid 1px rgb(224, 224, 224);
     box-shadow: 0 0 2px 1px rgba(31, 31, 31, 0.08);
     }
@@ -527,6 +531,7 @@ body.dark #principal h1{
 
 .categorias {
     margin: 0;
+    transition: all 0.1s;
 }
 
 .categorias li {
@@ -557,7 +562,7 @@ body.dark #principal h1{
         font-size: 5vw;
     margin: 0;
 
-    border-right: 2px solid #6d07f2ff;
+    border-right: 2px solid var(--font-roxo1);
     color: var(--font-color);
     animation: pisca normal infinite .9s, escrever normal 5s steps(50) both;
     max-width: 0px;
@@ -569,7 +574,7 @@ body.dark #principal h1{
     position: absolute;
     top: 9vw;
     left: 10.5vw;
-    background-color: #6d07f2ff;
+    background-color: var(--font-roxo1);
     height: 0.6vw;
     border-radius: 100px;
     width: 53vw;
@@ -604,7 +609,7 @@ header li a {
 
 .cat:hover {
 
-    border-top: 3px solid #6d07f2ff;
+    border-top: 3px solid var(--font-roxo1);
 
 
 }
