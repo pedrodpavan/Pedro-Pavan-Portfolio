@@ -208,7 +208,7 @@ body.dark #principal h1{
 #titu-sobre {
     position: absolute;
     top: 1vw;
-    color: var(--font-azul);
+    color: var(--font-preto);
     left: 38vw;
     margin: 0;
     width: 171px;
@@ -247,7 +247,7 @@ body.dark #principal h1{
 .tituloArea{
     position: absolute;
         top: 118vw;
-        color: var(--font-azul);
+        color: var(--font-preto);
         left: 4vw;
         margin: 0;
         font-size: 8vw;
