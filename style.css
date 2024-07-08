@@ -301,6 +301,7 @@ body.dark #principal h1{
      font-size: 3vw;
 }
 .containerCurso:hover {
+    cursor: pointer;
     background-color: var(--font-azul);
     border-radius: 3px;
     color: rgb(255, 255, 255);
@@ -595,6 +596,7 @@ header li a {
 
 .cat:hover {
     color: var(--font-azul);
+    cursor: pointer;
 
 
 }
@@ -612,7 +614,7 @@ footer {
     position: absolute;
     top: 400vw;
     height: 3vw;
-    bottom: 0;
+
     width: 100%;
   
 }
@@ -624,7 +626,7 @@ footer p {
 }
 
 
-body.dark #titu-sobre {}
+
 
 
 
