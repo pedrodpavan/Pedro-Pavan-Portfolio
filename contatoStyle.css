@@ -30,7 +30,7 @@ position: absolute;
 }
 .caixaComContatos:hover{
     cursor: pointer;
-    border: solid 1px var(--font-roxo1);
+    border: solid 1px var(--font-azul);
     
 }
 #caixacontato2{
@@ -52,7 +52,7 @@ height: 13vw;
 
 
 #formulario{
-background-color: var(--font-roxo1);
+background-color: var(--font-azul);
     position: absolute;
 height: 147vw;
     width: 100vw;
@@ -138,3 +138,12 @@ position: absolute;
 }
 
 
+body.dark #tituloProjetos{
+    color: white;
+}
+body.dark #informacaoContato {
+    color: white;
+}
+body.dark #formulario {
+background-color: rgb(21, 48, 97);
+}

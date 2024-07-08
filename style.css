@@ -1,7 +1,7 @@
 :root {
     --font-color: #141C3A;
-    --font-roxo: #141C3A;
-    --font-roxo1: #02baf8;
+    --font-preto: #141C3A;
+    --font-azul: #02baf8;
     --font-verde: #5BE9B9;
 
 }
@@ -47,7 +47,7 @@ body.dark #texto-sobre {
     color: #ffffff;
 }
 body.dark #titu-sobre {
-    color: var(--font-roxo1);
+    color: var(--font-azul);
 }
 body.dark .containerCurso:hover{
     color: black;
@@ -65,33 +65,6 @@ body.dark .experienciaSessao {
     background-color: var(--font-color);
     
 }
-body.dark #experienciaTecnico {
-    background-color: var(--font-color);
-
-}
-body.dark #experienciaTecnico2 {
-    background-color: var(--font-color);
-}
-body.dark #experienciacftv {
-    background-color: var(--font-color);
-}
-body.dark #experienciaTitu {
-    color: white;
-}
-body.dark .cargoExperiencia {
-    color: white;
-}
-body.dark .empresaExperiencia {
-    color: rgb(180, 180, 180);
-}
-body.dark .descrisaoProfissao {
-    color: rgb(182, 182, 182);
-}
-body.dark .dataProfissao {
-    color: rgb(44, 44, 44);
-}
-
-
 
 
 
@@ -115,7 +88,7 @@ body.dark .dataProfissao {
 
 
 body.dark :root{
-    --font-roxo1:red;
+    --font-azul1:red;
     background-color: var(--font-color);
 }
 .checkbox{
@@ -157,7 +130,7 @@ body.dark :root{
 }
 .fa-moon{
     
-    color: var(--font-roxo1);
+    color: var(--font-azul);
 }
 .fa-sun{
     color: #f39c12;
@@ -235,7 +208,7 @@ body.dark #principal h1{
 #titu-sobre {
     position: absolute;
     top: 1vw;
-    color: var(--font-roxo1);
+    color: var(--font-azul);
     left: 38vw;
     margin: 0;
     width: 171px;
@@ -274,7 +247,7 @@ body.dark #principal h1{
 .tituloArea{
     position: absolute;
         top: 118vw;
-        color: var(--font-roxo);
+        color: var(--font-azul);
         left: 4vw;
         margin: 0;
         font-size: 8vw;
@@ -328,7 +301,7 @@ body.dark #principal h1{
      font-size: 3vw;
 }
 .containerCurso:hover {
-    background-color: var(--font-roxo1);
+    background-color: var(--font-azul);
     border-radius: 3px;
     color: rgb(255, 255, 255);
     border: solid 1px rgb(224, 224, 224);
@@ -575,7 +548,7 @@ body.dark #principal h1{
         font-size: 5vw;
     margin: 0;
 
-    border-right: 2px solid var(--font-roxo1);
+    border-right: 2px solid var(--font-azul);
     color: var(--font-color);
     animation: pisca normal infinite .9s, escrever normal 5s steps(50) both;
     max-width: 0px;
@@ -587,7 +560,7 @@ body.dark #principal h1{
     position: absolute;
     top: 9vw;
     left: 10.5vw;
-    background-color: var(--font-roxo1);
+    background-color: var(--font-azul);
     height: 0.6vw;
     border-radius: 100px;
     width: 53vw;
@@ -621,7 +594,7 @@ header li a {
 }
 
 .cat:hover {
-    color: var(--font-roxo1);
+    color: var(--font-azul);
 
 
 }

@@ -36,22 +36,22 @@ position: absolute;
     z-index: 2;
 }
 .experienciaContainer:hover{
-        top: 60px;
         transition: all .10s;
         border-radius: 3px;
-        border: solid 3px var(--font-roxo1);
+        border: solid 3px var(--font-azul);
         box-shadow: 0 0 2px 1px rgba(31, 31, 31, 0.08);
 }
 .cargoExperiencia {
 position: absolute;
     top: -13px;
     left: 4vw;
-    color: #2f2f2f;
+    color: #4d4d4d;
     font-size: 4.8vw;
+    
         transition: 0.3s;
     z-index: 2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 .empresaExperiencia {
 position: absolute;
@@ -79,7 +79,7 @@ position: absolute;
 position: absolute;
     top: 3px;
     left: 71vw;
-    color: #3c3c3c;
+    color: #bebebe;
     font-size: 3vw;
     font-weight: 300;
 width: 70px;
@@ -104,12 +104,10 @@ top: 13vw;
     left: 80vw;
     width: 6vw;
     height: 102vw;
-    background-color: var(--font-roxo1);
+    background-color: var(--font-azul);
     z-index: 1;
 }
-#experienciaTecnico2:hover {
-    top: 200px;
-}
+
 
 
 footer{
@@ -118,5 +116,38 @@ color: white;
     top: 567vw;
     width: 100vw;
     height: 20vw;
-    background-color: var(--font-roxo)
+    background-color: var(--font-preto)
+}
+
+
+body.dark .experienciaContainer{
+    border-radius: 2px;
+    background-color: rgb(21, 48, 97);
+    border: none;
+    color: black;
+
+}
+body.dark .dataProfissao{
+    color: rgb(255, 255, 255);
+}
+
+body.dark .empresaExperiencia {
+    color: rgb(255, 255, 255);
+}
+
+body.dark .descrisaoProfissao {
+    color: rgb(255, 255, 255);
+}
+
+body.dark .dataProfissao {
+    color: rgb(255, 255, 255);
+}
+
+body.dark #experienciaTitu {
+    color: rgb(255, 255, 255);
+}
+
+body.dark .cargoExperiencia {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
 }
