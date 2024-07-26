@@ -1,0 +1,126 @@
+:root {
+    --degrade-roxo: linear-gradient(45deg, #B16BEB, #FE5E68, #FFA04F);
+}
+#paginaSobre{
+    position: relative;
+        top: 13vw;
+        left: 3vw;
+        
+}
+#ola{
+    font-size: 17vw;
+    font-family: Ubuntu;
+        font-weight: 400;
+}
+
+#maoAcenando{
+    position: absolute;
+    top: 13.5vw;
+    left: 34vw;
+    height: 14.5vw;
+
+}
+
+#souTitulo{
+    position: relative;
+    top: -11vw;
+    left: 1vw;
+    font-size: 13vw;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    font-family: Ubuntu;
+}
+#pedroTitulo {
+    position: relative;
+    top: -35.5vw;
+    font-weight: bold;
+     background: linear-gradient(45deg, #FE5E68, #FFA04F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    left: 25vw;
+    font-size: 12vw;
+    letter-spacing: -1.5px;
+    font-family: Ubuntu;
+}
+#linhaHorizontal-1{
+    position: absolute;
+    top: 52vw;
+    left: 1.5vw;
+    height: 1.6px;
+    background: linear-gradient(-45deg, #FE5E68, #FFA04F);
+    width: 41vw;
+    
+}
+#desenvolvedorTitulo {
+    position: absolute;
+    top: 42.5vw;
+    left: 44.6vw;
+    font-size: 6vw;
+    font-weight: 300;
+    letter-spacing: -1.5px;
+    font-family: Ubuntu;
+}
+#githubButton{
+    position: absolute;
+    top: 62vw;
+    left: 1vw;
+    height: 11vw;
+    width: 30vw;
+    color: white;
+    font-size: 5vw;
+    border: none;
+    border-radius: 3px;
+    font-family: Ubuntu;
+    font-weight: 300;
+    background: linear-gradient(100deg, #FE5E68, #FFA04F);
+}
+#githubButton img{
+    position: absolute;
+    top: 1.6vw;
+    left: 2.5vw;
+    height: 7.5vw;
+}
+#githubButton p{
+    position: absolute;
+    top: -4px;
+    font-size: 16px;
+    left: 50px;
+    font-family: Ubuntu;
+}
+
+#linkedinButton {
+    position: absolute;
+    top: 62vw;
+    left: 35vw;
+    height: 11vw;
+    width: 30vw;
+    color: white;
+    font-size: 5vw;
+    border: 1.5px solid #FE5E68;
+    border-radius: 3px;
+    font-family: Ubuntu;
+    font-weight: 300;
+    background: white;
+}
+
+#linkedinButton img {
+    position: absolute;
+    top: 1.6vw;
+    left: 2.5vw;
+    height: 7.5vw;
+}
+
+#linkedinButton p {
+    position: absolute;
+    top: -6px;
+    font-size: 16px;
+    left: 45px;
+    background: linear-gradient(45deg, #FE5E68, #FFA04F);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    font-family: Ubuntu;
+}
