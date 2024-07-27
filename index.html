@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" type="text/css" href="headerStyle.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="projetosStyle.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <style>
+    footer {
+      opacity: 0;
+      /* Inicialmente invisível para a animação */
+      transition: opacity 1s ease-in-out;
+      /* Garantir transição suave */
+    }
+  </style>
+</head>
+
+<body>
+
+    <!-- Modal de Seleção de Idioma -->
+<div id="languageModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h2 id="escolhaidiomaTitulo">Escolha seu idioma</h2>
+    <h2 id="escolhaidiomaTitulo2">Select your language</h2>
+    <button class="language-button" data-lang="pt-BR">
+      <img src="images/brasilBadeira.webp" alt="Português Brasil"> Português (Brasil)
+    </button>
+    <button class="language-button" data-lang="en-US">
+      <img src="images/estadosunidosBandeira.webp" alt="English United States"> English (US)
+    </button>
+  </div>
+</div>
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      direction: 'horizontal',
+      effect:"coverflow",
+      loop: false,
+        coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    });
+
+    const indicator = document.querySelector('.indicator');
+    const navLinks = document.querySelectorAll('nav ul li a');
+    const navList = document.querySelector('nav ul');
+
+    function updateIndicator() {
+      const activeLink = document.querySelector('nav ul li a[href="#' + swiper.slides[swiper.activeIndex].id + '"]');
+      const rect = activeLink.getBoundingClientRect();
+      const navRect = navList.getBoundingClientRect();
+      indicator.style.left = (rect.left - navRect.left) + 'px';
+      indicator.style.width = rect.width + 'px';
+    }
+
+    document.querySelector('nav').addEventListener('click', function (e) {
+      if (e.target.tagName === 'A') {
+        e.preventDefault();
+        const targetId = e.target.getAttribute('href').substring(1);
+        const targetIndex = Array.from(document.querySelectorAll('.swiper-slide')).findIndex(slide => slide.id === targetId);
+        swiper.slideTo(targetIndex);
+      }
+    });
+
+    document.addEventListener('scroll', function () {
+      const maxScroll = 500; // Valor máximo de rolagem em pixels
+      if (window.scrollY > maxScroll) {
+        window.scrollTo(0, maxScroll);
+      }
+    });
+
+    swiper.on('slideChange', updateIndicator);
+    window.addEventListener('resize', updateIndicator);
+    document.addEventListener('DOMContentLoaded', updateIndicator);
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000, // Duração padrão para todas as animações
+      offset: 200, // Distância padrão do topo da página para início da animação
+      
+    });
+  </script>
+  <script> document.addEventListener('DOMContentLoaded', () => {
+      const modal = document.getElementById('languageModal');
+      const closeBtn = document.querySelector('.close-btn');
+      const languageButtons = document.querySelectorAll('.language-button');
+
+      // Exibe o modal quando a página carrega
+      modal.style.display = 'block';
+
+      // Fecha o modal
+      closeBtn.onclick = function () {
+        modal.style.display = 'none';
+      }
+
+      // Seleciona o idioma e redireciona para a página correspondente
+      languageButtons.forEach(button => {
+        button.onclick = function () {
+          const lang = button.getAttribute('data-lang');
+          let url;
+
+          if (lang === 'pt-BR') {
+            url = 'portugues.html'; // Substitua pelo link da página em português
+          } else if (lang === 'en-US') {
+            url = 'english.html'; // Substitua pelo link da página em inglês
+          }
+
+          // Redireciona para a página do idioma selecionado
+          window.location.href = url;
+        }
+      });
+
+      // Fecha o modal ao clicar fora do conteúdo
+      window.onclick = function (event) {
+        // Verifica se o clique foi fora do conteúdo do modal
+        if (event.target === modal) {
+          modal.style.display = 'none';
+        }
+      }
+    });
+</script>
+</body>
+
+</html>

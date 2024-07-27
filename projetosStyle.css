@@ -1,0 +1,101 @@
+#meusTitulo{
+position: absolute;
+    top: 10vw;
+    left: 32vw;
+    font-size: 15vw;
+    font-family: Ubuntu;
+    font-weight: 400;
+}
+#projetosTitulo{
+position: absolute;
+    top: 23vw;
+    left: 36vw;
+    font-size: 15vw;
+    font-family: Ubuntu;
+    font-weight: 700;
+}
+#projetosLogo-1{
+position: absolute;
+    top: 17vw;
+    left: -1vw;
+    height: 42vw;
+}
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#engrenagemLogo {
+position: absolute;
+    top: 40.5vw;
+    left: 20.5vw;
+    height: 14vw;
+    animation: girar 4s linear infinite;
+}
+
+#linhaHorizontalProjetos{
+        position: absolute;
+            top: 60vw;
+            left: 5vw;
+            height: 1.6px;
+            background: linear-gradient(-45deg, #FE5E68, #FFA04F);
+            width: 52vw;
+}
+#projetosatuaisTitulo{
+    position: absolute;
+        top: 51.5vw;
+        left: 59vw;
+        font-size: 6vw;
+        font-weight: 300;
+        letter-spacing: -1.5px;
+        animation: typing 2s steps(20, end), blink-caret 0.75s step-end infinite;
+        font-family: Ubuntu;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 1px solid rgb(82, 82, 82);
+        padding: 3px;
+    }
+    
+    
+    @keyframes typing {
+        from {
+            width: 0%;
+        }
+    
+        to {
+            width: 41%;
+        }
+    }
+
+    #sobrePagina{
+            position: absolute;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                top: 62vw;
+                left: 5.2vw;
+                font-weight: 350;
+                font-size: 4.2vw;
+                max-width: 94vw;
+    }
+
+
+    #projeto1{
+        position: absolute;
+        top: 90vw;
+        left: 4svw;
+      
+        border-radius: 10px;
+        height: 62vw;
+    }
+
+        #footerProjetos {
+            position: absolute;
+            top: 223vw;
+            left: 0vw;
+
+        }
+    
