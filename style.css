@@ -4,8 +4,8 @@
 #paginaSobre{
     position: relative;
         top: 13vw;
+        height: 230vw;
         left: 3vw;
-
         
 }
 #ola{
@@ -253,12 +253,13 @@
     left: 1.5vw;
     font-size:4.2vw;
     max-width: 90vw;
+    ;
 }
 #segundoTexto{
     position: absolute;
     text-align: right;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    top: 159vw;
+    top: 160vw;
     left: 1.5vw;
     font-size:4.2vw;
     max-width: 90vw;
@@ -266,7 +267,7 @@
 }
 footer{
     position: absolute;
-    top: 210vw;
+    top: 230vw;
     left: -5vw;
     height: 62vw;
     width: 102vw;

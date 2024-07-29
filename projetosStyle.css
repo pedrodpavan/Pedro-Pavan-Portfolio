@@ -1,3 +1,11 @@
+#projetos{
+        position: relative;
+            top: 0;
+            height: 245vw;
+            left: 0vw;
+        }
+
+
 #meusTitulo{
 position: absolute;
     top: 10vw;
@@ -94,8 +102,7 @@ position: absolute;
 
         #footerProjetos {
             position: absolute;
-            top: 223vw;
+            top: 243vw;
             left: 0vw;
-
         }
     

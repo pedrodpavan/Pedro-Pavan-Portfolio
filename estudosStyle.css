@@ -1,0 +1,241 @@
+#estudos{
+        position: relative;
+            top: 0;
+            height: 245vw;
+            left: 0vw;
+        }
+
+
+#meustituloEstudos {
+    position: absolute;
+    top: 14vw;
+    left: 37vw;
+    font-size: 15vw;
+    font-family: Ubuntu;
+    font-weight: 400;
+}
+
+#estudosTitulo {
+    position: absolute;
+    top: 27vw;
+    left: 38vw;
+    font-size: 15vw;
+    font-family: Ubuntu;
+    font-weight: 700;
+}
+
+#estudosLogo-1 {
+    position: absolute;
+    top: 25vw;
+    left: 3vw;
+    height: 30vw;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+#linhaHorizontalEstudos {
+    position: absolute;
+    top: 62vw;
+    left: 5vw;
+    height: 1.6px;
+    background: linear-gradient(-45deg, #FE5E68, #FFA04F);
+    width: 41vw;
+}
+
+#estudosatuaisTitulo {
+    position: absolute;
+    top: 53.7vw;
+    left: 48vw;
+    font-size: 6vw;
+    font-weight: 300;
+    letter-spacing: -1.5px;
+    animation: typing 2s steps(20, end), blink-caret 0.75s step-end infinite;
+    font-family: Ubuntu;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid rgb(82, 82, 82);
+    padding: 3px;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 41%;
+    }
+}
+
+#sobrePagina {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 62vw;
+    left: 5.2vw;
+    font-weight: 350;
+    font-size: 4.2vw;
+    max-width: 94vw;
+}
+
+
+
+
+#formacaoTitulo{
+    position: absolute;
+    font-size: 5vw;
+    left: 4.7vw;
+    top: 70vw;
+    font-family: Ubuntu;
+    font-weight: 300;
+}
+#universidadeContainer{
+    position: absolute;
+    top: 82vw;
+    left: 5.2vw;
+    width: 90vw;
+    height: 30vw;
+    background-color: #f8f8f8;
+}
+#universidadeContainer img {
+    position: absolute;
+    left: 3vw;
+    top: 3vw;
+    height: 24vw;
+}
+#universidadeContainer p {
+ position: absolute;
+ left: 30vw;
+ font-size: 3.5vw;
+ max-width: 54vw;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cursosTitulo{
+    position: absolute;
+        font-size: 5vw;
+        left: 4.7vw;
+        top: 120vw;
+        font-family: Ubuntu;
+        font-weight: 300;
+}
+
+.cursoContainer{
+        position: absolute;
+            left: 5.2vw;
+            width: 90vw;
+            height: 25vw;
+            z-index: 2;
+            background: linear-gradient(-100deg, #ffffff, #eeeeee);
+}
+#adatechContainer{
+    position: absolute;
+    top: 132vw;
+
+}
+#adatechContainer img {
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    height: 20vw;
+
+}
+#adatechContainer h1 {
+    position: absolute;
+    left: 26vw;
+    font-family: Ubuntu;
+    font-size: 4.5vw;
+
+}
+#adatechContainer h2 {
+    position: absolute;
+    top: 6vw;
+    left: 26vw;
+    font-family: Ubuntu;
+    font-size: 4.5vw;
+    font-weight: 100;
+
+}
+#origamidContainer{
+    position: absolute;
+    top: 165vw;
+
+}
+#origamidContainer img {
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    height: 20vw;
+
+}
+#origamidContainer h1 {
+    position: absolute;
+    left: 26vw;
+    font-family: Ubuntu;
+    font-size: 4.5vw;
+
+}
+#origamidContainer h2 {
+    position: absolute;
+    top: 6vw;
+    left: 26vw;
+    font-family: Ubuntu;
+    font-size: 4.5vw;
+    font-weight: 100;
+
+}
+
+
+#b7webContainer{
+    position: absolute;
+    top: 198vw;
+
+}
+#b7webContainer img {
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    height: 20vw;
+
+}
+#b7webContainer h1 {
+    position: absolute;
+    left: 26vw;
+    font-family: Ubuntu;
+    font-size: 4.5vw;
+
+}
+#b7webContainer h2 {
+    position: absolute;
+    top: 6vw;
+    left: 26vw;
+    font-family: Ubuntu;
+    font-size: 4.5vw;
+    font-weight: 100;
+
+}
+#linhaverticalEstudos{
+    position: absolute;
+    top: 140svw;
+    left: 17.2vw;
+    height: 60vw;
+    width: 1px;
+    z-index: 1;
+    background-color: rgb(53, 53, 53);
+}
+
+
+                #footerEstudos {
+                    position: absolute;
+                    top: 243vw;
+                    left: 0vw;
+                }

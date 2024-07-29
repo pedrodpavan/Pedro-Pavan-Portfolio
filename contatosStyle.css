@@ -1,0 +1,263 @@
+#contato{
+        position: relative;
+            top: 0;
+            height: 245vw;
+            left: 0vw;
+}
+
+
+#meustituloContatos {
+    position: absolute;
+    top: 14vw;
+    left: 36vw;
+    font-size: 15vw;
+    font-family: Ubuntu;
+    font-weight: 400;
+}
+
+#contatosTitulo {
+    position: absolute;
+    top: 27vw;
+    left: 38vw;
+    font-size: 15vw;
+    font-family: Ubuntu;
+    font-weight: 700;
+}
+
+#contatosLogo-1 {
+    position: absolute;
+    top: 21vw;
+    left: -1vw;
+    height: 39vw;
+}
+
+#informacoescontatoTitulo {
+    position: absolute;
+    top: 53.7vw;
+    left: 34vw;
+    font-size: 6vw;
+    font-weight: 300;
+    letter-spacing: -1.5px;
+    animation: typing 2s steps(20, end), blink-caret 0.75s step-end infinite;
+    font-family: Ubuntu;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid rgb(82, 82, 82);
+    padding: 3px;
+}
+#linhaHorizontalContatos {
+    position: absolute;
+    top: 62vw;
+    left: 5vw;
+    height: 1.6px;
+    background: linear-gradient(-45deg, #FE5E68, #FFA04F);
+    width: 27vw;
+}
+
+
+
+
+
+
+
+
+
+#contatoContainer {
+    position: absolute;
+    top: 30vw;
+    left: 0vw;
+    width: 100vw;
+    height: 201vw;
+}
+
+#informacaoContato h1 {
+    position: absolute;
+    top: 5vw;
+    color: red;
+    left: 4vw;
+    margin: 0;
+    font-size: 11vw;
+    font-family: inter;
+}
+
+.caixaComContatos {
+    position: absolute;
+    background-color: #ECECEC;
+    height: 12vw;
+    width: 60vw;
+    top: 51vw;
+    display: flex;
+    align-items: center;
+    left: 5vw;
+    border: none;
+    font-size: 4vw;
+    transition: 0.2s;
+    border: solid 1px transparent;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.caixaComContatos:hover {
+    cursor: pointer;
+    border: solid 1px rgb(153, 153, 153);
+
+}
+
+#caixacontato2 {
+    top: 75vw;
+    
+}
+
+#linkedinLogoContato {
+    position: absolute;
+    top: 46vw;
+    height: 4vw;
+    left: 6vw;
+}
+
+#gmailLogoContato {
+    position: absolute;
+    top: 69vw;
+    left: 3.5vw;
+    height: 5.6vw;
+}
+
+
+#formulario {
+    position: absolute;
+    height: 147vw;
+    width: 100vw;
+    top: 60vw;
+    left: 1vw;
+
+}
+
+form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    width: 91vw;
+    top: 33vw;
+    left: 4vw;
+    color: rgb(197, 48, 48);
+    border: none;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+input {
+    padding: 8px;
+
+}
+
+#formulario h1 {
+    position: absolute;
+    top: 3vw;
+    color: #941e1e;
+    left: 3vw;
+    margin: 0;
+    font-size: 11vw;
+    font-family: inter;
+    width: 89vw;
+
+}
+
+
+#nomeFormulario {
+    height: 40vw;
+    border: none;
+    resize: none;
+    background-color: #ECECEC;
+}
+
+.caixaFormulario {
+    border: none;
+    padding: 13px;
+    background-color: #ECECEC;
+}
+
+#caixaMensagem {
+    height: 40vw;
+    background-color: #ECECEC;
+    resize: none;
+}
+
+.labelFormulario {
+    color: rgb(41, 41, 41);
+    top: -10px;
+    font-size: 5vw;
+    font-weight: 350;
+}
+
+.caixaFormulario::placeholder {
+    opacity: 0.6;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#botaoEnviar {
+    position: absolute;
+    height: 12vw;
+    width: 29vw;
+    top: 105vw;
+    left: 62vw;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: none;
+    font-family: Ubuntu;
+    font-weight: 380;
+    font-size: 5vw;
+    background: linear-gradient(-45deg, #FE5E68, #FFA04F);
+    transition: 0.5s;
+    border-radius: 4px;
+}
+#botaoEnviar img{
+        transform: translatex(-8vw);
+        height: 7vw;
+}
+#botaoEnviar h1 {
+    transform: translatex(-28.5vw);
+        font-weight: 380;
+            font-size: 5vw;
+                color: #ffffff;
+                    font-family: Ubuntu;
+}
+
+#botaoEnviar:hover {
+    cursor: pointer;
+    border-radius: 20vw;
+    background-color: rgb(143, 34, 34);
+}
+
+
+body.dark #tituloProjetos {
+    color: rgb(201, 0, 0);
+}
+
+body.dark #informacaoContato {
+    color: rgb(199, 38, 38);
+}
+
+body.dark #formulario {
+    background-color: rgb(21, 48, 97);
+}
+
+#botaoenviarTexto{
+ position: absolute;
+ color: black;
+ top: 1vw;
+ left: 1vw;
+ font-size: 20vw;
+
+}
+#footerContatos {
+    position: absolute;
+    top: 243vw;
+    left: 0vw;
+}

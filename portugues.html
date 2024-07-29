@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" type="text/css" href="headerStyle.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="projetosStyle.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="contatosStyle.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="estudosStyle.css" media="screen" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -74,13 +76,13 @@
                     vagas. Este portfólio contém informações sobre mim, incluindo minhas competências, as áreas que
                     estudei ou
                     planejo
-                    estudar, e detalhes sobre meus projetos. Há também uma seção onde você pode me contatar.</p>
-                <p id="segundoTexto">Atualmente, estou estudando HTML, CSS, design UX/UI e JavaScript, mas estou apenas
+                    estudar, e detalhes sobre meus projetos. Há também uma seção onde você pode me contatar. </br></br> Atualmente, estou estudando HTML, CSS, design UX/UI e JavaScript, mas estou apenas
                     começando. Meu objetivo é conseguir
                     um estágio na área de TI. Estou me aprofundando no desenvolvimento front-end com um roteiro
                     autodesenhado,
                     sobre o qual
                     você pode encontrar mais informações na seção "Educação".</p>
+             
 
                 <footer data-aos="fade-up" data-aos-offset="100" data-aos-duration="700" data-aos-once="true">
                     <h1>PP</h1>
@@ -109,8 +111,7 @@
                 <p id="sobrePagina">Aqui estão alguns dos meus projetos que fiz usando CSS, HTML e JavaScript.</p>
                 <img id="projeto1" src="projetosImagens/projeto1.png">
 
-                <footer id="footerProjetos" data-aos="fade-up" data-aos-offset="100" data-aos-duration="700"
-                    data-aos-once="true">
+                <footer id="footerProjetos" data-aos="fade-up" data-aos-offset="100" data-aos-duration="700">
                     <h1>PP</h1>
                     <h2>Viver, aprender, evoluir<br> um dia de cada vez.</h2>
                     <p>Feito à mão por Pedro Pavan</p>
@@ -126,8 +127,92 @@
                 </footer>
 
             </div>
-            <div class="swiper-slide" id="estudos"></div>
-            <div class="swiper-slide" id="contato"></div>
+            <div class="swiper-slide" id="estudos">
+                    <img id="estudosLogo-1" src="estudosImagens/livroLogo.png">
+                    <h1 id="meustituloEstudos">Meus</h1>
+                    <h1 id="estudosTitulo">estudos</h1>
+                    <div id="linhaHorizontalEstudos"></div>
+                    <h1 id="estudosatuaisTitulo">Faculdade e Cursos</h1>
+                    <h1 id="formacaoTitulo" >Formação Acadêmica</h1>
+                    <div id="universidadeContainer" ><img src="estudosImagens/mackenzieLogo.png" alt="mackenzieLogo">
+                    <p >Atualmente cursando Análise e Desenvolvimento de Sistemas na Universidade Presbiteriana Mackenzie, com início em 08/2023
+                    e conclusão em 2026.</p></div>
+                    <h1 id="cursosTitulo">Cursos</h1>
+                    <div  class="cursoContainer" id="adatechContainer" ><img src="estudosImagens/adatechLogo.png" alt="adatech imagem">
+                    <h1>Ada Tech</h1><h2>Trilha Digital Coders </br>24 Front-End</h2></div>
+
+                    <div class="cursoContainer" id="origamidContainer" ><img src="estudosImagens/origamidLogo.png" alt="origamid imagem">
+                    <h1>Origamid</h1><h2>Web Design</br>UX/UI Front-End</h2></div>
+
+                    <div class="cursoContainer" id="b7webContainer" ><img src="estudosImagens/b7webLogo.png" alt="b7web imagem">
+                    <h1>B7web</h1><h2>Front-End</br>HTML5, CSS3 e Javascript</h2></div>
+
+                        <div id="linhaverticalEstudos" ></div>
+
+                        <footer id="footerEstudos"  data-aos="fade-up" data-aos-offset="100" data-aos-duration="700" >
+                            <h1>PP</h1>
+                            <h2>Viver, aprender, evoluir<br> um dia de cada vez.</h2>
+                            <p>Feito à mão por Pedro Pavan</p>
+                            <a href="www"><button class="buttonFooter" id="buttonInstagram"><img src="images/githubLogoWhite.png"></button></a>
+                            <a href="www"><button class="buttonFooter" id="buttonGithub"><img src="images/instagramButton.png"></button></a>
+                            <a href="www"><button class="buttonFooter" id="buttonLinkedinFooter">
+                                    <h1>in</h1>
+                                </button></a>
+                            <a href="www"><button class="buttonFooter" id="buttonEmail"><img src="images/emailLogo.png"></button></a>
+                        </footer>
+
+            </div>
+            <div class="swiper-slide" id="contato">
+
+                <img id="contatosLogo-1" src="estudosImagens/contatoLogo.png">
+                <h1 id="meustituloContatos">Me</h1>
+                <h1 id="contatosTitulo">contate</h1>
+                <div id="linhaHorizontalContatos"></div>
+                    <h1 id="informacoescontatoTitulo">Informações de Contato</h1>
+
+                <!--Contato-->
+                <section id="contatoContainer">
+                    <div id="informacaoContato">
+                        <img id="linkedinLogoContato" class="contatoImagensContato" src="contatosImagens/linkedinlogo.png">
+                        <img id="gmailLogoContato" class="contatoImagensContato" src="contatosImagens/gmailLogo.png">
+                        <button onclick="window.location.href='https://www.linkedin.com/in/pedroduarte11/'" class="caixaComContatos">
+                            <p>linkedin.com/in/pedroduarte11</p>
+                        </button>
+                        <button id="caixacontato2" onclick="window.location.href='mailto:pedrohdpavan@gmail.com'"
+                            class="caixaComContatos">
+                            <p>pedrohdpavan@gmail.com</p>
+                        </button>
+                    </div>
+                
+                    <div id="formulario">
+                        <form action="https://formsubmit.co/pedrohdpavan@gmail.com" method="POST">
+                            <label class="labelFormulario" for="name">Nome</label>
+                            <input class="caixaFormulario" type="text" name="name" placeholder="Nome ou Corporação" required>
+                            <label class="labelFormulario" for="email">Email</label>
+                            <input type="hidden" name="_captcha" value="false">
+                            <input class="caixaFormulario" type="email" name="email" placeholder="Endereço de Email válido" required>
+                            <label class="labelFormulario" for="message">Mensagem</label>
+                            <textarea id="caixaMensagem" class="caixaFormulario" name="message"
+                                placeholder="Digite aqui a mensagem que gostária de enviar"></textarea>
+                            <input type="hidden" name="_next" value="https://pedropavan.com.br/obrigado.html">
+                            <button id="botaoEnviar" type="submit"><img src="contatosImagens/enviar logo.png"> <h1>Enviar</h1></button>
+                        </form>
+                
+            
+                    </div>
+                </section>
+                    <footer id="footerContatos" data-aos="fade-up" data-aos-offset="100" data-aos-duration="700">
+                        <h1>PP</h1>
+                        <h2>Viver, aprender, evoluir<br> um dia de cada vez.</h2>
+                        <p>Feito à mão por Pedro Pavan</p>
+                        <a href="www"><button class="buttonFooter" id="buttonInstagram"><img src="images/githubLogoWhite.png"></button></a>
+                        <a href="www"><button class="buttonFooter" id="buttonGithub"><img src="images/instagramButton.png"></button></a>
+                        <a href="www"><button class="buttonFooter" id="buttonLinkedinFooter">
+                                <h1>in</h1>
+                            </button></a>
+                        <a href="www"><button class="buttonFooter" id="buttonEmail"><img src="images/emailLogo.png"></button></a>
+                    </footer>
+            </div>
         </div>
     </div>
 
@@ -135,7 +220,7 @@
     <script>
         const swiper = new Swiper('.swiper-container', {
             direction: 'horizontal',
-            effect: "coverflow",
+          
             loop: false,
             coverflowEffect: {
                 rotate: 50,
