@@ -1,0 +1,155 @@
+#sobreBackground{
+    position: absolute;
+    top: 70vw;
+    height: 50vw;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+#sobreBackground h1{
+    position: absolute;
+    font-size: 7vw;
+    font-family: Ubuntu;
+    font-weight: 700;
+    top: 2vw;
+    display: flex;
+    justify-content: center;
+    color: #CCC;
+    opacity: 0.12;
+
+}
+#sobreBackground h2{
+    position: absolute;
+    font-size: 2vw;
+    font-family: Ubuntu;
+    font-weight: 700;
+    top: 9vw;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    color: #0B1722;
+}
+#linhaSobre{
+    position: absolute;
+    top: 13.3vw;
+    height: 4px;
+    width: 8vw;
+    background: linear-gradient(to right, #FE5E68, #FFA04F);
+}
+#sobreBackground h3{
+        position: absolute;
+        font-size: 1.8vw;
+        left: 11vw;
+        font-family: Ubuntu;
+        font-weight: 700;
+        top: 20vw;
+        display: flex;
+        justify-content: center;
+        color: #0B1722;
+        font-family: Poppins;
+         font-weight: 600;
+}
+.destaqueNome{
+    color: #FE5E68;
+    margin-left: 4px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.fechamentoTexto{
+    color: #B16BEB;
+    margin-left: 2px;
+}
+#sobreBackground p{
+    position: absolute;
+    top: 24vw;
+    left: 11vw;
+    color: var(--verde-escuro, #0B1722);
+    font-family: Poppins;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 45vw;
+    opacity: 0.51;
+}
+
+#sobreBackground img{
+    position: absolute;
+    height: 20vw;
+    left: 68vw;
+    top: 20vw;
+}
+
+#coluna1{
+    top: 8vw;
+    left: 92vw;
+    height: 5vw;
+    width: 3.3vw;
+}
+#coluna2{
+    top: 10vw;
+    left: 89.5vw;
+    height: 3vw;
+    width: 2vw;
+}
+.colunaVetor{
+    position: absolute;
+    background: #343A40;
+    box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 0.096);
+        #343A40
+}
+
+
+
+@media (min-width: 1250px){
+    #sobreBackground{
+        top: 860px;
+       
+    }
+    #sobreBackground h1{
+    font-size: 89px;
+    top: 20px;
+}
+    #sobreBackground h2{
+    font-size: 25px;
+    top: 110px;
+}
+    #linhaSobre{
+        top: 165px;
+        width: 98px;
+    }
+    #sobreBackground h3{
+        font-size: 23px;
+        left: 50%;
+        top: 250px;
+        transform: translateX(-88.2%);
+    }
+    #sobreBackground p{
+        left: 50%;
+        transform: translateX(-86.7%);
+        top: 298px;
+        font-size: 14px;
+        width: 562px;
+    }
+    #coluna1{
+        left: 50%;
+        transform: translateX(1280%);
+        top: 100px;
+        height: 63px;
+        width: 41px;
+    }
+    #coluna2{
+        left: 50%;
+        transform: translateX(1610%);
+        top: 123px;
+        height: 40px;
+        width: 30px;
+    }
+    #sobreBackground img{
+        height: 250px;
+        top: 260px;
+        left: 50%;
+        transform: translateX(90%);
+    }
+}

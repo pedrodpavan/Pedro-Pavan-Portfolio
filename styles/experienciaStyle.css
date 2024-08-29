@@ -1,0 +1,161 @@
+#experienciaContainer{
+    position: absolute;
+        top: 271vw;
+        left: 0vw;
+        display: flex;
+        justify-items: center;
+        background-color: #EFEFEF;
+        height: 76vw;
+        width: 100%;
+}
+#experienciaVetor{
+    position: absolute;
+        height: 9vw;
+        top: 6.3vw;
+        left: 22vw;
+    }
+
+
+#experienciaLinha {
+    position: absolute;
+        top: 15vw;
+    left: 33.5vw;
+        height: 3px;
+        width: 17vw;
+    background: linear-gradient(to right, #B16BEB, #FE5E68, #FFA04F);
+}
+#experienciaContainer h1 {
+    position: absolute;
+        font-size: 7vw;
+        font-family: Poppins;
+        font-weight: 700;
+        top: -0.1vw;
+        display: flex;
+        justify-content: center;
+        color: #212529;
+        left: 33vw;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        font-weight: 700;
+}
+
+#experienciaContainer h2 {
+    position: absolute;
+    top: 12.5vw;
+    left: 51.8vw;
+    color: var(--verde-escuro, #0B1722);
+    font-family: Poppins;
+    font-size: 1.6vw;
+    font-weight: 300;
+}
+
+#cargosGrid{
+    position: absolute;
+    display: grid;
+    height: 48vw;
+    width: 60vw;
+    left: 20vw;
+    top: 22vw;
+
+}
+.cargosgridDiv{
+    height: 10vw;
+    width: 100%;
+    background-color: white;
+}
+
+.cargoTitulo{
+    position: absolute;
+        top: -10%;
+        left: 2%;
+        color: #2F2F2F;
+        font-family: Ubuntu;
+        font-size: 2vw;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+}
+.cargoInfo{
+    position: absolute;
+    top: 30%;
+        left: 17px;
+        color: #767676;
+        font-family: "Segoe UI";
+        font-size: 1.2vw;
+        font-weight: 300;
+        max-width: 57vw;
+}
+
+.cargoData{
+    position: absolute;
+        color: #2F2F2F;
+        font-family: Poppins;
+        font-size: 1.2vw;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        top: 17px;
+        left: 52vw;
+}
+#linhahorizontalExperiencia{
+    position: absolute;
+    left: 90%;
+    height: 90%;
+    background: linear-gradient(to bottom, #FE5E68, #FFA04F);
+    width: 2vw;
+}
+
+@media (min-width: 1250px){
+#experienciaContainer{
+    top: 3248px;
+    height: 1071px; 
+}
+#experienciaVetor{
+    top: 78px;
+    left: 50%;
+    transform: translateX(-300%);
+    height: 116px;
+}
+#experienciaContainer h1 {
+    font-size: 89px;
+    top: -2px;
+    left: 50%;
+    transform: translateX(-36.8%);
+}
+#experienciaLinha{
+    width: 229px;
+    top: 187px;
+    left: 50%;
+    transform: translateX(-90%);
+}
+#experienciacontainer h2{
+    top: 156px;
+    font-size: 20px;
+    left: 50%;
+    transform: translateX(10%);
+}
+#cargosGrid{
+    top: 298px;
+    left: 50%;
+    transform: translateX(-49%);
+    height: 580px;
+    width: 743px;
+}
+.cargosgridDiv{
+    height: 126px;
+}
+.cargoTitulo{
+    top: -13px;
+    left: 16px;
+    font-size: 24px;
+}
+.cargoinfo{
+    top: 34px;
+    font-size: 16px;
+    max-width: 710px;
+}
+.cargodata{
+    left: 642px;
+    font-size: 15px;
+}
+}
+

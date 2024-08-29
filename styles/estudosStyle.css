@@ -1,0 +1,967 @@
+#estudosContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 190vw;
+    height: 100vw;
+    width: 100%;
+    background: url(background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#estudosContainer h1 {
+    position: absolute;
+    font-size: 7vw;
+    font-family: Poppins;
+    font-weight: 700;
+    top: -0.1vw;
+    display: flex;
+    justify-content: center;
+    color: #212529;
+    transform: translateX(18%);
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+}
+
+#estudosVetor {
+    position: absolute;
+    height: 9vw;
+    top: 7.2vw;
+    left: 27vw;
+}
+
+#estudosLinha {
+    position: absolute;
+    top: 15vw;
+    left: 40.2vw;
+    height: 3px;
+    width: 15vw;
+    background: linear-gradient(to right, #B16BEB, #FE5E68, #FFA04F);
+}
+
+#estudosContainer h2 {
+    position: absolute;
+    top: 12.5vw;
+    left: 55.8vw;
+    color: var(--verde-escuro, #0B1722);
+    font-family: Poppins;
+    font-size: 1.6vw;
+    font-weight: 300;
+}
+
+#estudosContainer h3 {
+    position: absolute;
+    top: 20vw;
+    left: 20vw;
+}
+
+#estudosContainer h4 {
+    position: absolute;
+    top: 19.3vw;
+    left: 54vw;
+}
+
+.estudosSubtitulo {
+    position: absolute;
+    font-size: 1.8vw;
+    font-family: Poppins;
+    background: linear-gradient(to right, #FE5E68, #FFA04F);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
+
+#formacaoContainer {
+    position: absolute;
+    top: 26vw;
+    left: 20vw;
+    height: 41vw;
+    width: 28vw;
+    background-color: #F1F1F1;
+}
+
+
+#linhaformacaoContainer {
+    position: absolute;
+    top: 9.4vw;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#faculdadeLogo {
+    position: absolute;
+    display: flex;
+    top: 1.3vw;
+    left: 1vw;
+    height: 7vw;
+}
+
+#textoFaculdade {
+    position: absolute;
+    top: 0.1vw;
+    left: 8.8vw;
+    color: var(--Preto, #1A1A1A);
+    font-family: Poppins;
+    font-size: 1vw;
+    font-weight: 400;
+    max-width: 18vw;
+}
+
+#conteudosTitulo {
+    position: absolute;
+    top: 9.5vw;
+    left: 1.4vw;
+    color: var(--Preto, #1A1A1A);
+    font-family: Poppins;
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+
+#conteudosEstudados {
+    position: absolute;
+    top: 13vw;
+    left: -1.4vw;
+    list-style-type: none;
+    color: var(--verde-escuro, #0B1722);
+    font-family: Poppins;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+#conteudosEstudados li {
+    margin-bottom: 2vw;
+}
+
+.conteudosLogos {
+    position: absolute;
+    height: 20px;
+    margin-left: 1vw;
+}
+
+
+
+/* Container do Tooltip */
+.tooltip1 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Texto do Tooltip */
+.tooltip1 .tooltiptext1 {
+    visibility: hidden;
+    width: 15vw;
+    background-color: #212529;
+    color: #fff;
+    text-align: center;
+    padding: 0.6vw;
+    border-radius: 0.5vw;
+    font-size: 1.1vw;
+    line-height: 1.4;
+    position: absolute;
+    font-weight: 200;
+    z-index: 1;
+    top: -26.1vw;
+    left: -20vw;
+    opacity: 0;
+    transition: opacity 0.3s;
+    transition: 0.2s;
+   
+}
+
+/* Seta do Tooltip */
+.tooltip1 .tooltiptext1::after {
+    content: "";
+        position: absolute;
+        top: 26.4vw;
+        left: 16vw;
+        width: 0;
+        height: 0;
+        border-top: 1vw solid transparent;
+        border-bottom: 1vw solid transparent;
+        border-left: 1.2vw solid #212529;
+    }
+
+/* Mostrar o Tooltip */
+.tooltip1:hover .tooltiptext1 {
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+
+
+
+
+
+/* Container do Tooltip */
+.tooltip2 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Texto do Tooltip */
+.tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    width: 15vw;
+    background-color: #212529;
+    color: #fff;
+    text-align: center;
+    padding: 0.6vw;
+    border-radius: 0.5vw;
+    font-size: 1.1vw;
+    line-height: 1.4;
+    position: absolute;
+    z-index: 1;
+    top: -22.4vw;
+    font-weight: 200;
+    left: -20vw;
+    opacity: 0;
+    transition: opacity 0.3s;
+    transition: 0.2s;
+   
+}
+
+/* Seta do Tooltip */
+.tooltip2 .tooltiptext2::after {
+    content: "";
+    position: absolute;
+    top: 22.4vw;
+    left: 16vw;
+    width: 0;
+    height: 0;
+    border-top: 1vw solid transparent;
+    border-bottom: 1vw solid transparent;
+    border-left: 1.2vw solid #212529;
+}
+
+/* Mostrar o Tooltip */
+.tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+
+
+
+/* Container do Tooltip */
+.tooltip3 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Texto do Tooltip */
+.tooltip3 .tooltiptext3 {
+    visibility: hidden;
+    width: 15vw;
+    background-color: #212529;
+    color: #fff;
+    text-align: center;
+    padding: 0.6vw;
+    border-radius: 0.5vw;
+    font-size: 1.1vw;
+    line-height: 1.4;
+    position: absolute;
+    z-index: 1;
+    top: -18.4vw;
+    font-weight: 200;
+    left: -20vw;
+    opacity: 0;
+    transition: opacity 0.3s;
+    transition: 0.2s;
+
+   
+}
+
+/* Seta do Tooltip */
+.tooltip3 .tooltiptext3::after {
+    content: "";
+    position: absolute;
+    top: 18.4vw;
+    left: 16vw;
+    width: 0;
+    
+    height: 0;
+    border-top: 1vw solid transparent;
+    border-bottom: 1vw solid transparent;
+    border-left: 1.2vw solid #212529;
+}
+
+/* Mostrar o Tooltip */
+.tooltip3:hover .tooltiptext3 {
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+
+
+
+/* Container do Tooltip */
+.tooltip4 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Texto do Tooltip */
+.tooltip4 .tooltiptext4 {
+    visibility: hidden;
+    width: 15vw;
+    background-color: #212529;
+    color: #fff;
+    text-align: center;
+    padding: 0.6vw;
+    border-radius: 0.5vw;
+    font-size: 1.1vw;
+    line-height: 1.4;
+    position: absolute;
+    z-index: 1;
+    top: -11.5vw;
+    font-weight: 200;
+    left: -20vw;
+    opacity: 0;
+    transition: opacity 0.3s;
+    transition: 0.2s;
+   
+}
+
+/* Seta do Tooltip */
+.tooltip4 .tooltiptext4::after {
+    content: "";
+    position: absolute;
+    top: 11.5vw;
+    left: 16vw;
+    width: 0;
+    height: 0;
+    border-top: 1vw solid transparent;
+    border-bottom: 1vw solid transparent;
+    border-left: 1.2vw solid #212529;
+}
+
+/* Mostrar o Tooltip */
+.tooltip4:hover .tooltiptext4 {
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip1:hover {
+     padding-left: 1vw;
+}
+.tooltip2:hover {
+     padding-left: 1vw;
+}
+.tooltip3:hover {
+     padding-left: 1vw;
+}
+.tooltip4:hover {
+     padding-left: 1vw;
+}
+.tooltip5:hover {
+     padding-left: 1vw;
+}
+.tooltip6:hover {
+     padding-left: 1vw;
+}
+.tooltip7:hover {
+     padding-left: 1vw;
+}
+    /* Texto do Tooltip */
+    .tooltip1 .tooltiptext1 {
+        /* Outras propriedades */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        /* Adiciona sombra */
+    }
+
+    /* Repita para outros tooltips se necessário */
+    .tooltip2 .tooltiptext2 {
+        /* Outras propriedades */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        /* Adiciona sombra */
+    }
+
+    .tooltip3 .tooltiptext3 {
+        /* Outras propriedades */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        /* Adiciona sombra */
+    }
+    .tooltip4 .tooltiptext4 {
+        /* Outras propriedades */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        /* Adiciona sombra */
+    }
+    .tooltip5 .tooltiptext5 {
+        /* Outras propriedades */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        /* Adiciona sombra */
+    }
+    .tooltip6 .tooltiptext6 {
+        /* Outras propriedades */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        /* Adiciona sombra */
+    }
+    .tooltip7 .tooltiptext7 {
+        /* Outras propriedades */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        /* Adiciona sombra */
+    }
+
+        /* Container do Tooltip */
+        .tooltip5 {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+    
+        /* Texto do Tooltip */
+        .tooltip5 .tooltiptext5 {
+            visibility: hidden;
+            width: 15vw;
+            background-color: #212529;
+            color: #fff;
+            text-align: center;
+            padding: 0.6vw;
+            border-radius: 0.5vw;
+            font-size: 1.1vw;
+            line-height: 1.4;
+            position: absolute;
+            z-index: 1;
+           top: -20.6vw;
+            font-weight: 200;
+            left: -20vw;
+            opacity: 0;
+            transition: opacity 0.3s;
+            transition: 0.2s;
+    
+        }
+    
+        /* Seta do Tooltip */
+        .tooltip5 .tooltiptext5::after {
+            content: "";
+            position: absolute;
+            top: 20.7vw;
+            left: 16vw;
+            width: 0;
+            height: 0;
+            border-top: 1vw solid transparent;
+            border-bottom: 1vw solid transparent;
+            border-left: 1.2vw solid #212529;
+        }
+                /* Mostrar o Tooltip */
+                .tooltip5:hover .tooltiptext5 {
+                    visibility: visible;
+                    opacity: 1;
+                }
+
+        /* Container do Tooltip */
+        .tooltip6 {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+    
+        /* Texto do Tooltip */
+        .tooltip6 .tooltiptext6 {
+            visibility: hidden;
+            width: 15vw;
+            background-color: #212529;
+            color: #fff;
+            text-align: center;
+            padding: 0.6vw;
+            border-radius: 0.5vw;
+            font-size: 1.1vw;
+            line-height: 1.4;
+            position: absolute;
+            z-index: 1;
+           top: -11.6vw;
+            left: -20vw;
+            opacity: 0;
+            transition: opacity 0.3s;
+            transition: 0.2s;
+            font-weight: 200;
+    
+        }
+    
+        /* Seta do Tooltip */
+        .tooltip6 .tooltiptext6::after {
+            content: "";
+            position: absolute;
+            top: 11.7vw;
+            left: 16vw;
+            width: 0;
+            height: 0;
+            border-top: 1vw solid transparent;
+            border-bottom: 1vw solid transparent;
+            border-left: 1.2vw solid #212529;
+        }
+                /* Mostrar o Tooltip */
+                .tooltip6:hover .tooltiptext6 {
+                    visibility: visible;
+                    opacity: 1;
+                }
+
+
+
+
+
+        /* Container do Tooltip */
+        .tooltip7 {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+    
+        /* Texto do Tooltip */
+        .tooltip7 .tooltiptext7 {
+            visibility: hidden;
+            width: 15vw;
+            background-color: #212529;
+            color: #fff;
+            text-align: center;
+            padding: 0.6vw;
+            border-radius: 0.5vw;
+            font-size: 1.1vw;
+            line-height: 1.4;
+            position: absolute;
+            z-index: 1;
+           top: -5.6vw;
+            left: -20vw;
+            opacity: 0;
+            font-weight: 200;
+            transition: opacity 0.3s;
+            transition: 0.2s;
+    
+        }
+    
+        /* Seta do Tooltip */
+        .tooltip7 .tooltiptext7::after {
+            content: "";
+            position: absolute;
+            top: 5.7vw;
+            left: 16vw;
+            width: 0;
+            height: 0;
+            border-top: 1vw solid transparent;
+            border-bottom: 1vw solid transparent;
+            border-left: 1.2vw solid #212529;
+        }
+                /* Mostrar o Tooltip */
+                .tooltip7:hover .tooltiptext7 {
+                    visibility: visible;
+                    opacity: 1;
+                }
+
+
+
+
+
+
+
+
+#cursosContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 26vw;
+    left: 54vw;
+    height: 41vw;
+    width: 26vw;
+    gap: 1vw;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.cursoContainerDiv {
+    height: 7.4vw;
+    margin: 0;
+    padding:0;
+    width: 26vw;
+    background-color: #F1F1F1;
+    display: flex;
+    align-items: center;
+}
+.cursoContainerDiv img {
+    position: absolute;
+    left: 19vw;
+    height: 6vw;
+    width: 6vw;
+}
+
+.cursoContainerDiv h8 {
+    position: absolute;
+    font-size: 1.5vw;
+    top: 0.5vw;
+    left: 10vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: Poppins;
+    text-align: right;
+}
+.cursoContainerDiv h9 {
+    position: absolute;
+    color: var(--verde-escuro, #414141);
+    text-align: right;
+    top: 3.3vw;
+    left: 5vw;
+    font-family: Poppins;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#curso2 h8 {
+    top: 8.9vw;
+}
+#curso2 h9 {
+    top: 11.7vw;
+    left: 6.6vw;
+}
+
+
+#curso3 h8 {
+    top: 17.4vw;
+    left: 12vw;
+}
+#curso3 h9 {
+    top: 20.2vw;
+    left: 1.9vw;
+}
+
+
+#curso4 h8 {
+    top: 25.5vw;
+    font-size: 1.4vw;
+    left: 3vw;
+}
+#curso4 h9 {
+    top: 27.4vw;
+    left: 1.3vw; 
+    font-size: 1vw;
+}
+
+#curso5 h8 {
+    top: 34.4vw;
+    left: 3.1vw;
+}
+
+#curso5 h9 {
+    top: 37.2vw;
+    left: 2.9vw;
+        font-size: 1vw;
+}
+
+
+
+@media (min-width: 1250px){
+
+    #estudosContainer  {
+            top: 2300px;
+        }
+    #estudosContainer h1{
+        font-size: 90px;
+    }
+    #estudosContainer h2 {
+             font-size: 20px;
+             top: 157px;
+             left: 50%;
+             transform: translateX(40%);
+    }
+    #estudosVetor{
+        height: 110px;
+        top: 94px;
+        left: 50%;
+        transform: translateX(-190%);
+    }
+    #estudosLinha{
+        width: 190px;
+        top: 189px;
+        left: 50%;
+        transform: translateX(-66.6%);
+    }
+    #estudosContainer h3{
+        font-size: 23px;
+        left: 50%;
+        transform: translateX(-143.5%);
+        top: 250px;
+    }
+    #estudosContainer h4{
+    font-size: 23px;
+    left: 50%;
+    transform: translateX(60%);
+    top: 243px;
+    }
+    #formacaoContainer{
+        top: 326px;
+        left: 50%;
+        transform: translateX(-107%);
+        height: 513px;
+        width: 350.5px;
+    }
+    #linhaformacaoContainer{
+        top: 116px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #faculdadeLogo{
+        height: 87px;
+        top: 15px;
+        left: 13px;
+    }
+    #textoFaculdade{
+        top: -5px;
+        font-size: 13px;
+        left: 50%;
+        transform: translateX(-31%);
+        width: 205px;
+    }
+    #conteudosTitulo{
+        top: 115px;
+        left: 50%;
+        transform: translateX(-49%);
+        width: 320px;
+        font-size: 16px;
+    }
+        #conteudosEstudados li{
+            margin-bottom: 25px;
+        }
+    #conteudosEstudados{
+        top: 154px;
+        left: 50%;
+        transform: translateX(-66%);
+        width: 256;
+        font-size: 16px;
+    }
+    
+    
+    .tooltip1 .tooltiptext1 {
+    width: 190px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    top: -336px;
+    left: 44%;
+    transform: translateX(-158%);
+    }
+
+    /* Seta do Tooltip */
+    .tooltip1 .tooltiptext1::after {
+        top: 337px;
+        left: 201px;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 14px solid #212529;
+    }
+
+
+    
+    .tooltip2 .tooltiptext2 {
+    width: 190px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    top: -280px;
+    left: 40%;
+    transform: translateX(-158%);
+    }
+
+    /* Seta do Tooltip */
+    .tooltip2 .tooltiptext2::after {
+        top: 280px;
+        left: 201px;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 14px solid #212529;
+    }
+
+
+
+    .tooltip3 .tooltiptext3 {
+        width: 190px;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 14px;
+            top: -218px;
+            left: 83%;
+            transform: translateX(-158%);
+    }
+
+    /* Seta do Tooltip */
+    .tooltip3 .tooltiptext3::after {
+            top: 218px;
+        left: 201px;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 14px solid #212529;
+    }
+    .tooltip4 .tooltiptext4 {
+        width: 190px;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 14px;
+            top: -167px;
+            left: 50%;
+            transform: translateX(-158%);
+    }
+    /* Seta do Tooltip */
+    .tooltip4 .tooltiptext4::after {
+        top: 168px;
+        left: 201px;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 14px solid #212529;
+    }
+
+
+
+    /* Texto do Tooltip */
+    .tooltip5 .tooltiptext5 {
+        width: 190px;
+        padding: 8px;
+        border-radius: 5px;
+        font-size: 14px;
+        top: -268px;
+        left: 50%;
+        transform: translateX(-178%);
+    }
+
+    /* Seta do Tooltip */
+    .tooltip5 .tooltiptext5::after {
+        top: 270px;
+        left: 201px;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 14px solid #212529;
+    }
+    /* Texto do Tooltip */
+    .tooltip6 .tooltiptext6 {
+    width: 190px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    top: -73px;
+    left: 56%;
+    transform: translateX(-178%);
+    }
+
+    /* Seta do Tooltip */
+    .tooltip6 .tooltiptext6::after {
+        top: 73px;
+        left: 201px;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 14px solid #212529;
+    }
+    /* Texto do Tooltip */
+    .tooltip7 .tooltiptext7 {
+    width: 190px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    top: -25px;
+    left: 54%;
+    transform: translateX(-178%);
+    }
+
+    /* Seta do Tooltip */
+    .tooltip7 .tooltiptext7::after {
+        top: 26px;
+        left: 201px;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 14px solid #212529;
+    }
+    #cursosContainer{
+        top: 326px;
+        width: 323px;
+        height: 513px;
+        left: 50%;
+        transform: translateX(15%);
+        gap: 12px;
+    }
+    .cursoContainerDiv{
+        width: 323px;
+        height: 93px;
+    }
+    .cursoContainerDiv img{
+        left: 235px;
+        height: 74px;
+        width: 74px;
+ 
+    }
+    .cursoContainerdiv h8{
+        top: 5px;
+        left: 126px;
+        font-size: 18.5px;
+    }
+    .cursoContainerdiv h9{
+        top: 43px;
+        left: 64px;
+        font-size: 15.1px;
+    }
+    #curso2 h9{
+        top: 149px;
+        left: 83px;
+    }
+    
+    
+    #curso2 h8 {
+        top: 109.9px;
+        left: 124px;
+    }
+    
+
+
+     #curso3 h9 {
+        top: 255px;
+        left: 25px;
+    }
+     #curso3 h8 {
+    top: 217px;
+    left: 152px;
+    }
+    
+     #curso4 h8 {
+        top: 322px;
+        left: 40px;
+        font-size: 17.7px;
+    }
+    
+    #curso4 h9 {
+        top: 346px;
+            left: 31px;
+            font-size: 12px;
+    }
+    #curso5 h8 {
+        top: 424px;
+            left: 50.1px;
+            font-size: 18px;
+    }
+    #curso5 h9 {
+        top: 468.3px;
+            left: 24px;
+            font-size: 14px;
+    }
+
+
+}

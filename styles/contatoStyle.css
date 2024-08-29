@@ -1,0 +1,299 @@
+#contatoContainer{
+    top: 431vw;
+    position: absolute;
+    width: 100%;
+    height: 59vw;
+    background-color: #EFEFEF;
+}
+#contatosVetor {
+    position: absolute;
+        height: 15vw;
+        top: 4vw;
+        left: 24vw;
+}
+
+#contatosLinha {
+    position: absolute;
+        top: 14.9vw;
+        left: 37.4vw;
+        height: 3px;
+        width: 14.4vw;
+    background: linear-gradient(to right, #B16BEB, #FE5E68, #FFA04F);
+}
+#titulocontatos {
+    position: absolute;
+        font-size: 7vw;
+        font-family: Poppins;
+        font-weight: 700;
+        top: -0.1vw;
+        display: flex;
+        justify-content: center;
+        color: #212529;
+        left: 37vw;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        font-weight: 700;
+}
+
+
+#contatoContainer h2 {
+    position: absolute;
+    top: 12.5vw;
+    left: 52.5vw;
+    color: var(--verde-escuro, #0B1722);
+    font-family: Poppins;
+    font-size: 1.6vw;
+    font-weight: 300;
+}
+#linkedinButtonLink{
+
+}
+.buttonContact{
+position: absolute;
+    height: 3vw;
+    width: 15vw;
+    background-color: #FFF;
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.04));
+    top: 22.7vw;
+    left: 24vw;
+    border: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttonContact:hover{
+    background-color: #bdbdbd;
+    cursor: pointer;
+}
+.contatoButtons{
+    position: absolute;
+    height: 1.2vw;
+}
+#linkedinContactButtonimg{
+    top: 21.1vw;
+    left: 24.1vw;
+}
+#GmailContactButtonImg{
+    top: 27.3vw;
+    left: 23.6vw;
+    height: 1.6vw;
+}
+#gmailButtonLink{
+position: absolute;
+    top: 29vw;
+}
+
+
+#contactForm{
+    position: absolute;
+    left: 51vw;
+    display: grid;
+    top: 20vw;
+     height: 26vw;
+}
+form{
+    width: 27vw;
+    height: 20vw;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input {
+        border: none;
+        padding-left: 1vw;
+        box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.04);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.2vw;
+        height: 3vw;
+}
+input:placeholder {
+    color: #BCB7B7;
+}
+label{
+    font-size: 1.3vw;
+    font-weight: 400;
+    font-family: Poppins;
+    transform: translateY(22%);
+   
+
+}
+#mensagem{
+border: none;
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.04);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 350;
+    height: 10vw;
+}
+
+#botaoEnviar {
+    position: absolute;
+        top: 28vw;
+        left: 19vw;
+        height: 3.3vw;
+        width: 8vw;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        border: none;
+        font-family: Ubuntu;
+        font-weight: 380;
+        font-size: 1vw;
+        background: linear-gradient(-45deg, #FE5E68, #FFA04F);
+        border-radius: 4px;
+        transition: 0.1s;
+}
+#botaoEnviar img {
+transform: translatex(-0.5vw);
+    height: 1.7vw;
+  
+}
+
+#botaoEnviar h1 {
+transform: translatex(-0.5vw);
+    font-weight: 380;
+    font-size: 1.5vw;
+    color: #ffffff;
+    font-family: Ubuntu;
+}
+
+#botaoEnviar:hover {
+    cursor: pointer;
+    top: 27vw;
+    box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.20);
+
+}
+
+#botaoenviarTexto {
+    position: absolute;
+    color: black;
+    top: 1vw;
+    left: 1vw;
+    font-size: 20vw;
+
+}
+
+#footerContatos {
+    position: absolute;
+    top: 243vw;
+    left: 0vw;
+}
+textarea {
+    resize: none;
+}
+@media (min-width: 1250px) {
+    #contatoContainer{
+    top: 5300px;
+    height: 623px;  
+}
+    #titulocontatos{
+    top: -51px;
+    left: 50%;
+    transform: translateX(-36.7%);
+    font-size: 87px;
+    }
+    #contatosVetor{
+        top: 9px;
+        height: 184px;
+        left: 50%;
+        transform: translateX(-170%);
+    }
+    #contatosLinha{
+    top: 135px;
+    width: 172px;
+    left: 50%;
+    transform: translateX(-88.4%);
+    }
+    #contatoContainer h2{
+    top: 104px;
+    left: 50%;
+    transform: translateX(12%);
+    font-size: 20px;
+    }
+    #contactform{
+    top: 175px;
+    left: 50%;
+    transform: translateX(7%);
+    width: 338px;
+    height: 328px;
+    }
+    .buttonContact{
+    top: 206px;
+    left: 50%;
+    transform: translateX(-191%);
+    height: 38px;
+    width: 188px;
+    font-size: 14px;
+    }
+    #gmailButtonLink{
+        top: 280px;
+    }
+    
+    #linkedinContactButtonimg{
+        left: 50%;
+        transform: translateX(-534%);
+        top: 186px;
+        height: 15px;
+    }
+    #gmailContactButtonimg{
+    left: 50%;
+    transform: translateX(-533%);
+    top: 260px;
+    height: 18px;
+    }
+    #contatoLinhaVertical{
+        position: absolute;
+        top: 199px;
+        left: 50%;
+        transform: translateX(-1552%);
+        height: 279px;
+        width: 2px;
+        background-color: #e5e5e5;
+    }
+    label{
+    font-size: 14px;
+    }
+    input{
+        height: 40px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    #mensagem{
+    padding-left: 10px;
+    padding-top: 6px;
+    font-size: 16px;
+    height: 134px;
+    }
+    #botaoEnviar{
+    top: 344px;
+    left: 50%;
+    transform: translateX(68%);
+    height: 40px;
+    width: 102px;
+    transition: 0.2s;
+    }
+    #botaoEnviar:hover {
+    cursor: pointer;
+    top: 340px;
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.20);
+    
+    }
+    #botaoEnviar h1{
+        cursor: pointer;
+            top: 340px;
+            transform: translateX(33%);
+            left: 50%;
+            font-size: 20px;
+    }
+     #botaoenviar img{
+    height: 23px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-125%);
+    }
+    
+}

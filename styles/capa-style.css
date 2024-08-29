@@ -1,0 +1,333 @@
+#capaBackground{
+    position: absolute;
+    background: url('background.png');
+    background-size: cover;
+        /* Para garantir que a imagem cubra todo o fundo */
+    background-position: center;
+        /* Centraliza a imagem */
+    background-repeat: no-repeat;
+        /* Evita que a imagem se repita */
+    top: 4vw;
+    height: 70vw;
+    width: 100%;
+    z-index: 1;
+    filter: drop-shadow(0px 4px 4.7px rgba(0, 0, 0, 0.041));
+}
+#capa h1{
+    position: absolute;
+    font-family: Ubuntu;
+    font-size: 5vw;
+    font-weight: 400;
+    left: 12vw;
+    top: 11vw;
+}
+
+#mãoImagem {
+    position: absolute;
+    top: 15vw;
+    height: 5vw;
+    left: 23vw;
+    animation: wave 2s ease-in-out infinite;
+    transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    15% {
+        transform: rotate(14deg);
+    }
+
+    30% {
+        transform: rotate(-8deg);
+    }
+
+    40% {
+        transform: rotate(14deg);
+    }
+
+    50% {
+        transform: rotate(-4deg);
+    }
+
+    60% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes aceno {
+    0% {
+        transform: rotate(0deg);
+        /* Começa na posição original */
+    }
+
+    50% {
+        transform: rotate(10deg);
+        /* Inclina para um lado (meio do aceno) */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* Volta à posição original */
+    }
+}
+#capa h2 {
+    position: absolute;
+    font-family: Ubuntu;
+    font-size: 5vw;
+    color: #0B1722;
+    font-weight: 700;
+    left: 12vw;
+    top: 17vw;
+}
+#capa h3 {
+    position: absolute;
+    font-family: Ubuntu;
+    font-size: 5vw;
+    font-weight: 500;
+    background: linear-gradient(to right, #FE5E68, #FFA04F, #FFD771);
+    -webkit-background-clip: text;
+    backgroun-clip: text;
+    color: transparent;
+    left: 22vw;
+    top: 16.1vw;
+}
+#capa h4 {
+    position: absolute;
+    font-family: Ubuntu;
+    font-size: 1.9vw;
+    font-weight: 300;
+    left: 37vw;
+    top: 24.7vw;
+}
+#linhaCapa{
+    position: absolute;
+    top: 28.5vw;
+    left: 12.2vw;
+     background: linear-gradient(to right, #FE5E68, #FFA04F);
+    height: 2px;
+    width: 24vw;
+}
+
+
+#githubButton {
+    position: absolute;
+    top: 30vw;
+    left: 12.3vw;
+    height: 3.4vw;
+    width: 10vw;
+    color: white;
+    font-size: 5vw;
+    border: none;
+    border-radius: 3px;
+    font-family: Ubuntu;
+    font-weight: 300;
+    background: linear-gradient(100deg, #FE5E68, #FFA04F);
+    transition: 0.2s;
+}
+
+#githubButton img {
+    position: absolute;
+    top: 0.42vw;
+    left: 0.7vw;
+    height: 2.5vw;
+}
+
+#githubButton p {
+    position: absolute;
+    top: -0.6vw;
+    font-size: 1.5vw;
+    left: 4vw;
+    font-family: Ubuntu;
+}
+
+#githubButton:hover {
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#linkedinButton {
+    position: absolute;
+    top: 30vw;
+    left: 24vw;
+    height: 3.4vw;
+    width: 10vw;
+    color: white;
+    font-size: 5vw;
+    border: 1.5px solid #FE5E68;
+    border-radius: 3px;
+    font-family: Ubuntu;
+    font-weight: 300;
+    background: white;
+    transition: 0.2s;
+}
+
+#linkedinButton:hover {
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#linkedinButton img {
+    position: absolute;
+        top: 0.42vw;
+        left: 0.7vw;
+        height: 2.5vw;
+}
+
+#linkedinButton p {
+    position: absolute;
+    top: -0.6vw;
+    font-size: 1.5vw;
+    left: 3.6vw;
+    font-family: Ubuntu;
+    background: linear-gradient(45deg, #FE5E68, #FFA04F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: Ubuntu;
+}
+
+#capa h5 {
+    position: absolute;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    font-family: Ubuntu;
+    font-size: 15vw;
+    font-weight: 300;
+    font-family: "Ubuntu Condensed";
+    color: #0B1722;
+    left: 71vw;
+    top: -10vw;
+}
+
+
+#capa h6 {
+    position: absolute;
+    font-family: Ubuntu;
+    width: 50vw;
+    font-size: 2vw;
+    font-weight: 700;
+    color: #0B1722;
+    left: 35vw;
+    top: 60vw;
+    max-width: 90vw;
+    }
+
+
+@media (min-width: 1250px){
+    #capa h1{
+        font-size: 66px;
+            left: 50%;
+            top: 150px;
+            transform: translateX(-394%);
+    }
+    #capa h2{
+        font-size: 66px;
+        left: 50%;
+        top: 212px;
+        transform: translateX(-430%);
+       
+    }
+    #capa h3{
+        font-size: 66px;
+        left: 50%;
+        top: 202px;
+    transform: translateX(-90%);
+    }
+    #capa h4{
+    font-size: 25px;
+    top: 310px;
+    left: 50%;
+    transform: translateX(-93%);
+    }
+    #linhaCapa{
+        width: 300px;
+        top: 358px;
+        left: 50%;
+        transform: translateX(-158%);
+    }
+    #mãoImagem{
+        height: 62px;
+        top: 1px;
+        left: 1px;
+ 
+    }
+    #container{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        height: 20px;
+        top: 210px;
+        width: 20px;
+        left: 50%;
+        transform: translateX(-1700%);
+    }
+     #githubButton {
+            top: 380px;
+            left: 50%;
+            height: 42px;
+            width: 120px;
+            transform: translateX(-395%);
+            
+
+        }
+        #githubButton p{
+            font-size: 18px;
+            top: -9px;
+            left: 50%;
+            transform: translateX(-19%);
+}
+        #githubButton img {
+             height: 31px;
+             top: 5px;
+}
+
+
+     #linkedinButton {
+            top: 380px;
+            left: 50%;
+            height: 42px;
+            width: 120px;
+            transform: translateX(-280%);
+            
+
+        }
+        #linkedinButton p{
+            font-size: 18px;
+            left: 50%;
+                top: -9px;
+            transform: translateX(-19%);
+}
+        #linkedinButton img {
+             height: 31px;
+             top: 5px;
+             left: 8px;
+}
+        #capa h5{
+            top: -122px;
+            font-size: 190px;
+            left: 50%;
+            transform: translateX(123%);
+        }
+        #capa h6{
+            font-size: 28px;
+            top: 720px;
+            left: 50%;
+            width: 650px;
+            transform: translateX(-31%);
+        }
+
+                #capaBackground { 
+                    top: 50px;
+                    height: 870px;
+                    width: 100%;
+                    z-index: 1;
+                }
+}
+

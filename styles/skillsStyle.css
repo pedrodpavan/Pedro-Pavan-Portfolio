@@ -1,0 +1,233 @@
+#habilidadesContainer{
+    position: absolute;
+    top: 347vw;
+    height: 90vw;
+    width: 100%;
+        background: url(background.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+#habilidadesVetor {
+    position: absolute;
+    height: 9vw;
+    top: 7vw;
+    left: 21vw;
+}
+#habilidadesLinha {
+    position: absolute;
+    top: 15vw;
+    left: 30.4vw;
+    height: 3px;
+    width: 17.4vw;
+    background: linear-gradient(to right, #B16BEB, #FE5E68, #FFA04F);
+}
+#titulohabilidades {
+    position: absolute;
+    font-size: 7vw;
+    font-family: Poppins;
+    font-weight: 700;
+    top: -0.1vw;
+    display: flex;
+    justify-content: center;
+    color: #212529;
+    left: 30vw;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+}
+#habilidadesContainer h2 {
+    position: absolute;
+    top: 12.5vw;
+    left: 48.8vw;
+    color: var(--verde-escuro, #0B1722);
+    font-family: Poppins;
+    font-size: 1.6vw;
+    font-weight: 300;
+}
+
+
+.habilidadesSubtitulo {
+    position: absolute;
+    font-size: 1.8vw;
+    font-family: Poppins;
+    background: linear-gradient(to right, #FE5E68, #FFA04F);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
+#habilidadesContainer h3{
+    left: 14vw;
+    top: 20vw;
+}
+#habilidadesContainer h4{
+    left: 53vw;
+    top: 19.5vw;
+}
+#habilidadesContainer h5{
+    left: 53vw;
+    top: 50.5vw;
+}
+
+
+#tecnologiasBase{
+    position: absolute;
+    height: 42vw;
+    width: 33vw;
+    left: 14.1vw;
+    top: 27vw;
+    display: grid;
+    gap: 2px;
+
+}
+.tecnologiagridDiv{
+    height: 6vw;
+    width: 100%;
+
+
+}
+
+
+#tecnologiasBase2{
+    position: absolute;
+        height: 25vw;
+        width: 33vw;
+        left: 52.6vw;
+        top: 27vw;
+        display: grid;
+}
+#tecnologiasBase3{
+    position: absolute;
+    position: absolute;
+        height: 7vw;
+        width: 33vw;
+        left: 52.6vw;
+        top: 58vw;
+        display: grid;
+    
+}
+.tecnologiasImg{
+position: absolute;
+    left: 37px;
+    height: 4.5vw;
+    width: 4.5vw;
+    margin-left: -30px;
+    margin-top: 0.6vw;
+    border-radius: 3px;
+}
+.tecnologiaLinha{
+    position: absolute;
+    left: 20px;
+}
+
+.tecnologiaTitulo{
+    position: absolute;
+        font-size: 1.5vw;
+        left: 6.6vw;
+        margin-top: 0.7vw;
+        color: var(--verde-escuro, #0B1722);
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+}
+.tecnologiaLinha{
+    position: absolute;
+    height: 0.3vw;
+    width: 24vw;
+    left: 6.6vw;
+    margin-top: 3vw;
+    background-color: #CDCDCD;
+}
+@media (min-width: 1250px){
+    #habilidadesContainer{
+    top: 4317px;
+    height: 986px;
+    }
+    #titulohabilidades{
+        top: 0px;
+        font-size: 88px;
+        left: 50%;
+        transform: translateX(-43.4%);
+    }
+    #habilidadesLinha{
+    top: 186px;
+    left: 50%;
+    transform: translateX(-112.3%);
+    width: 217.7px;
+    }
+    #habilidadesContainer h2{
+    top: 153.5px;
+    left: 50%;
+    transform: translateX(-6%);
+    font-size: 21px;
+    }
+    #habilidadesVetor{
+    top: 90px;
+    height: 112px;
+    left: 50%;
+    transform: translateX(-352%);
+    }
+    #habilidadesContainer h3{
+    left: 50%;
+    transform: translateX(-54%);
+    top: 251px;
+    font-size: 25px;
+    }
+    
+    #habilidadesContainer h4{
+        left: 50%;
+        transform: translateX(-645%);
+        top: 244px;
+        font-size: 25px;
+    }
+    #habilidadesContainer h5{
+    left: 50%;
+    transform: translateX(470%);
+    top: 237px;
+    font-size: 25px;
+}
+    #tecnologiasBase{
+        left: 50%;
+        transform: translateX(-50%);
+        height: 537px;
+        width: 382px;
+        top: 335px;
+    }
+    #tecnologiasBase2{
+        left: 50%;
+        transform: translateX(-151%);
+        top: 335px;
+        height: 305px;
+            width: 383px;
+    }
+    #tecnologiasBase3{
+    top: 335px;
+    height: 160px;
+    left: 50%;
+    transform: translateX(52%);
+    width: 376px;
+    }
+    .tecnologiagridDiv{
+        height: 75px;
+    }
+    .tecnologiaLinha{
+    width: 290px;
+    height: 3px;
+    left: 84px;
+    margin-top: 37px;
+    }
+    .tecnologiasImg{
+    left: 46px;
+    width: 56px;
+    height: 56px;
+    margin-top: 9px;
+    }
+    .tecnologiaTitulo{
+    left: 84px;
+    margin-top: 9px;
+    font-size: 20px;
+    }
+}
+    
+
