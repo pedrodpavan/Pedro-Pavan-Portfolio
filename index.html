@@ -405,6 +405,23 @@ e conclusão em 2026.</p>
 <script>
     AOS.init();
 </script>
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetID = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetID);
+
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: 'smooth'
+            });
+
+            // Atualiza a URL sem mostrar o hash
+            history.pushState(null, null, ' ');
+        });
+    });
+</script>
 
 </html>
 
