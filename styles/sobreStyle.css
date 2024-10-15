@@ -102,54 +102,220 @@
 
 
 
-@media (min-width: 1250px){
-    #sobreBackground{
-        top: 860px;
-       
+@media (min-width: 100px) and (max-width: 660px){
+    #capa h1 {
+        font-size: 11vw;
+        font-weight: 400;
+        left: 4vw;
+        top: 7vw;
     }
-    #sobreBackground h1{
-    font-size: 89px;
-    top: 20px;
+
+
+#mãoImagem {
+    top: 17vw;
+    height: 11vw;
+    left: 29vw;
 }
-    #sobreBackground h2{
-    font-size: 25px;
-    top: 110px;
+
+#capa h2 {
+    font-size: 12vw;
+    font-weight: 700;
+    left: 4vw;
+    top: 20vw;
 }
-    #linhaSobre{
+
+#capa h5 {
+    font-size: 15vw;
+    font-weight: 300;
+    left: 79vw;
+    top: -14vw;
+}
+
+#capa h3 {
+    font-size: 12vw;
+    font-weight: 500;
+    left: 27vw;
+    top: 18vw;
+}
+
+#linhaCapa {
+    top: 48.2vw;
+    left: 4.2vw;
+    height: 2px;
+    width: 70vw;
+}
+
+#capa h4 {
+    font-size: 2.9vw;
+    font-weight: 300;
+    left: 75vw;
+    top: 42.7vw;
+}
+
+#githubButton {
+    top: 52vw;
+    left: 4.3vw;
+    height: 8.4vw;
+    width: 25vw;
+    font-weight: 300;
+}
+
+#githubButton p {
+    top: -2.6vw;
+    font-size: 4.2vw;
+    left: 10vw;
+}
+
+#githubButton img {
+    top: 0.70vw;
+    left: 1.4vw;
+    height: 6.5vw;
+}
+
+#linkedinButton {
+    top: 52vw;
+    left: 32vw;
+    height: 8.4vw;
+    width: 25vw;
+    font-weight: 300;
+}
+
+#linkedinButton p {
+    top: -1.7vw;
+    font-size: 3.6vw;
+    left: 9.6vw;
+}
+
+#linkedinButton img {
+    top: 0.70vw;
+    left: 1.4vw;
+    height: 6.5vw;
+}
+
+#capa h6 {
+    display: none;
+}
+#sobreBackground h1 {
+    font-size: 16vw;
+    top: -3vw;
+     }
+#sobreBackground h2 {
+     font-size: 7vw;
+     top: 9vw;
+ }
+#linhaSobre {
+    top: 23.3vw;
+    height: 2px;
+    width: 16vw;
+
+}
+#sobreBackground img {
+    height: 27vw;
+    left: 36vw;
+    top: 29vw;
+}
+#sobreBackground h3 {
+    position: absolute;
+    font-size: 1.8vw;
+    left: 11vw;
+    font-family: Ubuntu;
+    font-weight: 700;
+    top: 20vw;
+    display: flex;
+    justify-content: center;
+    color: #0B1722;
+}
+#sobreBackground h3 {
+    font-size: 3.8vw;
+    left: 6vw;
+    top: 62vw;
+}
+#sobreBackground p {
+    top: 69vw;
+    left: 6vw;
+    font-size: 3.4vw;
+    width: 88vw;
+}
+.destaqueNome {
+    margin-left: 4px;
+    margin-top: -1vw;
+}
+#capaBackground {
+    position: absolute;
+    background: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 9vw;
+    height: 70vw;
+    width: 100%;
+    z-index: 1;
+    /* filter: drop-shadow(0px 4px 4.7px rgba(0, 0, 0, 0.041)); */
+}
+
+}
+
+
+
+
+@media (min-width: 1250px) 
+{
+    #sobreBackground {
+        top: 860px;
+
+    }
+
+    #sobreBackground h1 {
+        font-size: 89px;
+        top: 20px;
+    }
+
+    #sobreBackground h2 {
+        font-size: 25px;
+        top: 110px;
+    }
+
+    #linhaSobre {
         top: 165px;
         width: 98px;
     }
-    #sobreBackground h3{
+
+    #sobreBackground h3 {
         font-size: 23px;
         left: 50%;
         top: 250px;
         transform: translateX(-88.2%);
     }
-    #sobreBackground p{
+
+    #sobreBackground p {
         left: 50%;
         transform: translateX(-86.7%);
         top: 298px;
         font-size: 14px;
         width: 562px;
     }
-    #coluna1{
+
+    #coluna1 {
         left: 50%;
         transform: translateX(1280%);
         top: 100px;
         height: 63px;
         width: 41px;
     }
-    #coluna2{
+
+    #coluna2 {
         left: 50%;
         transform: translateX(1610%);
         top: 123px;
         height: 40px;
         width: 30px;
     }
-    #sobreBackground img{
+
+    #sobreBackground img {
         height: 250px;
         top: 260px;
         left: 50%;
         transform: translateX(90%);
     }
+
 }

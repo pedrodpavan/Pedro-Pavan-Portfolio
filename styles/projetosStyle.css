@@ -1,13 +1,21 @@
+section{
+    scroll-snap-align: start;
+}
+
 #projetosContainer{
     position: absolute;
     top: 130vw;
     display: flex;
     height: 30vw;
     width: 100%;
-    background-color: #EFEFEF;
+    background: url(background.png);
+    background-size: cover;
+    background-position: center;
+     background-repeat: no-repeat;
     justify-content: center;
     gap: 1vw;
     flex-wrap: grid;
+
     
 }
 #projetosContainer h1{
@@ -70,6 +78,64 @@ color: var(--verde-escuro, #0B1722);
     height: 14vw;
     width: 20vw;
 }
+@media (min-width: 100px) and (max-width: 660px) {
+    #projetosContainer {
+        top: 229vw;
+        height: 30vw;
+        gap: 1vw;
+    }
+
+    #projetosContainer h1 {
+        font-size: 18vw;
+        top: -55px;
+        margin-left: -18%;
+    }
+
+    #projetosLinha {
+        position: absolute;
+        top: 32vw;
+        left: 4.7%;
+        height: 4px;
+        width: 32%;
+        background: linear-gradient(to right, #B16BEB, #FE5E68, #FFA04F);
+    }
+
+    #projetosLinha2 {
+    position: absolute;
+    top: 32vw;
+    left: 64%;
+    height: 4px;
+    width: 32%;
+    background: linear-gradient(to left, #B16BEB, #FE5E68, #FFA04F);
+        }
+    #projetosContainer h2 {
+        display: none;
+        }
+
+    #gridProjetos {
+        position: absolute;
+        top: 51vw;
+        width: 90vw;
+        display: grid;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 4vw;
+        padding: 2vw;
+    }
+    .projetosSite1 {
+        height: 57vw;
+        width: 90vw;
+    }
+    #projetosContainer img {
+    position: absolute;
+    height: 31vw;
+    top: 20.4vw;
+    left: 37vw;
+
+}
+}
+
 @media (min-width: 1250px){
     #projetosContainer{
         top: 1500px;

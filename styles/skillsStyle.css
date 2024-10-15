@@ -139,6 +139,124 @@ position: absolute;
     margin-top: 3vw;
     background-color: #CDCDCD;
 }
+
+@media (min-width: 100px) and (max-width: 660px) {
+#habilidadesContainer {
+        top: 1200vw;
+        height: 90vw;
+        width: 100%;
+
+    }
+#titulohabilidades {
+    font-size: 13.9vw;
+    top: -11.1vw;
+    left: 4.2vw;
+}
+#habilidadesVetor {
+    position: absolute;
+    height: 21vw;
+    top: 18vw;
+    left: 39.7vw;
+}  
+#habilidadesLinha {
+    position: absolute;
+    top: 25vw;
+    left: 4.9vw;
+    height: 4px;
+    width: 32%;
+    background: linear-gradient(to left, #B16BEB, #FE5E68, #FFA04F);
+}
+#habilidadesLinha2 {
+    position: absolute;
+    top: 25vw;
+    left: 62.6%;
+    height: 4px;
+    width: 32%;
+    background: linear-gradient(to left, #B16BEB, #FE5E68, #FFA04F);
+}
+#habilidadesContainer h2 {
+display: none;
+}
+#tecnologiasBase {
+    position: absolute;
+    height: 98vw;
+    width: 91.5vw;
+    left: 2.1vw;
+    top: 56vw;
+    display: grid;
+    gap: 2px;
+        }
+.tecnologiasImg {
+    position: absolute;
+    left: 39px;
+    height: 9.5vw;
+    width: 9.5vw;
+    margin-left: -30px;
+    margin-top: 2.6vw;
+    border-radius: 3px;
+}
+.tecnologiaTitulo {
+    position: absolute;
+    font-size: 3.5vw;
+    left: 13.6vw;
+    margin-top: 1.7vw;
+    color: var(--verde-escuro, #0B1722);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 52vw;
+}
+.tecnologiaLinha {
+    position: absolute;
+    height: 0.5vw;
+    width: 70vw;
+    left: 13.7vw;
+    margin-top: 7vw;
+    background-color: #CDCDCD;
+}
+#habilidadesContainer h3 {
+    left: 5vw;
+    top: 38vw;
+}
+.habilidadesSubtitulo {
+    font-size: 5.5vw;
+}
+
+#tecnologiasBase2 {
+    position: absolute;
+    height: 55vw;
+    width: 92vw;
+    left: 2.6vw;
+    top: 170vw;
+    display: grid;
+
+}
+#habilidadesContainer h4 {
+    left: 6.6vw;
+    top: 151.5vw;
+}
+#tecnologiasBase3 {
+    position: absolute;
+    height: 27vw;
+    width: 33vw;
+    left: 2.6vw;
+    top: 242vw;
+ }
+
+
+#habilidadesContainer h5 {
+    left: 6vw;
+    top: 221.5vw;
+}
+
+}
+
+
+
+
+
+
 @media (min-width: 1250px){
     #habilidadesContainer{
     top: 4317px;
@@ -230,4 +348,3 @@ position: absolute;
     }
 }
     
-

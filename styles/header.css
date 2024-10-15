@@ -110,10 +110,11 @@ footer{
 
 #separadorDeSessao1{
     position: absolute;
-    width: 1px;
-    height: 1px;
+    width: 20px;
+    height: 200px;
     top: 130vw;
     background-color: transparent;
+
 }
 #separadorDeSessao2{
     position: absolute;
@@ -129,4 +130,41 @@ footer{
     #separadorDeSessao2{
         top: 3248px;
     }
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    height: 1px;
+    background: linear-gradient(to bottom, #FE5E68, #FFA04F);
+} 
+
+@media (max-width:660px){
+    header{
+        height: 50px;
+    }
+        footer {
+            position: absolute;
+            top: 1681vw;
+            width: 98vw;
+            height: 9vw;
+            background: linear-gradient(to right, #212529, #343A40, #212529);
+            display: flex;
+            align-items: center;
+            padding-left: 2vw;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 3.2vw;
+        }
+
+    header ul{
+        display: none;
+    }
+        header img {
+            position: absolute;
+            left: 8px;
+            height: 11vw;
+        }
 }

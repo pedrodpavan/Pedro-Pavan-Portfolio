@@ -104,6 +104,113 @@
     width: 2vw;
 }
 
+
+
+
+
+@media (min-width: 100px) and (max-width: 660px) {
+#experienciaContainer {
+        top: 1000vw;
+        left: 0vw;
+        height: 76vw;
+        width: 100%;
+    }
+
+#experienciaContainer h1 {
+    font-size: 14vw;
+    top: -10vw;
+    display: flex;
+    justify-content: center;
+    color: #212529;
+    left: 4.3vw;
+}
+
+#experienciaContainer {
+    top: 976vw;
+    left: 0vw;
+    height: 243vw;
+    width: 100%;
+ }
+ #experienciaVetor {
+     position: absolute;
+     height: 19vw;
+     top: 19.3vw;
+    left: 40.3vw;
+ }
+
+#experienciaLinha {
+    top: 28vw;
+    left: 5.1vw;
+    height: 4px;
+    width: 32%;
+    background: linear-gradient(to right, #B16BEB, #FE5E68, #FFA04F);
+}
+#experienciaLinha2 {
+    position: absolute;
+    top: 28vw;
+    left: 62.6%;
+    height: 4px;
+    width: 32%;
+    background: linear-gradient(to right, #B16BEB, #FE5E68, #FFA04F);
+}
+#experienciaContainer h2 {
+    display: none;
+}
+#cargosGrid {
+    position: absolute;
+    display: grid;
+    height: 140vw;
+    width: 89.6vw;
+    left: 5vw;
+    top: 45vw;
+
+}
+.cargosgridDiv {
+    height: 29vw;
+    width: 100%;
+    background-color: white;
+}
+.cargoTitulo {
+    top: -6%;
+    left: 5%;
+    font-size: 4.5vw;
+    font-weight: 300;
+}
+.cargoInfo {
+    top: 32%;
+    left: 21px;
+    font-size: 2.6vw;
+    font-weight: 300;
+    max-width: 77vw;
+}
+.cargoData {
+    font-size: 3.5vw;
+    font-weight: 300;
+    top: 12px;
+    left: 68vw;
+}
+#linhahorizontalExperiencia {
+    left: 89%;
+    height: 92%;
+    width: 5vw;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
 @media (min-width: 1250px){
 #experienciaContainer{
     top: 3248px;
@@ -158,4 +265,5 @@
     font-size: 15px;
 }
 }
+
 

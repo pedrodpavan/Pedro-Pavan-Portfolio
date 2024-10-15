@@ -671,6 +671,181 @@
         font-size: 1vw;
 }
 
+@media (min-width: 100px) and (max-width: 660px) {
+    #estudosContainer {
+        top: 660vw;
+        height: 100vw;
+        width: 100%;
+}
+
+#estudosContainer h1 {
+    font-size: 20vw;
+    font-weight: 700;
+    top: -22.1vw;
+    margin-left: -33.1%;
+}
+#estudosContainer h2 {
+    display: none;
+}
+#estudosVetor {
+    height: 16vw;
+    top: 18.2vw;
+    left: 39.4vw;
+}
+#estudosLinha {
+        top: 25vw;
+        left: 5.4%;
+        height: 4px;
+        width: 32%;
+        background: linear-gradient(to right, #B16BEB, #FE5E68, #FFA04F);
+    }
+#estudosLinha2 {
+    position: absolute;
+    top: 25vw;
+    left: 63.4%;
+    height: 4px;
+    width: 32%;
+    background: linear-gradient(to left, #B16BEB, #FE5E68, #FFA04F);
+}
+#formacaoContainer {
+        top: 54vw;
+        left: 5vw;
+            height: 73vw;
+        width: 90.5vw;
+}
+#linhaformacaoContainer {
+    top: 23.4vw;
+    width: 100%;
+    height: 8px;
+}
+.estudosSubtitulo {
+    position: absolute;
+    font-size: 6.9vw;
+    font-family: Poppins;
+    background: linear-gradient(to right, #FE5E68, #FFA04F);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
+#estudosContainer h3 {
+    top: 35vw;
+    left: 4vw;
+}
+#cursosContainer {
+    top: 134vw;
+    left: 54vw;
+    height: 41vw;
+    width: 26vw;
+    gap: 1vw;
+}
+#faculdadeLogo {
+    top: 2vw;
+    left: 2.6vw;
+    height: 20vw;
+}
+#textoFaculdade {
+    position: absolute;
+    top: 0.1vw;
+    left: 23.8vw;
+    font-size: 2.9vw;
+    font-weight: 400;
+    max-width: 63vw;
+}
+#conteudosEstudados {
+    position: absolute;
+    top: 31vw;
+    left: -7.4vw;
+    list-style-type: none;
+    font-size: 2.3vw;
+    font-weight: 400;
+}
+#conteudosTitulo {
+    top: 24.6vw;
+    left: 3.5vw;
+    font-size: 2.9vw;
+    font-weight: 600;
+}
+#estudosContainer h4 {
+    top: 123.3vw;
+    left: 71vw;
+}
+        #cursosContainer {
+            top: 146vw;
+            left: 5vw;
+            height: 147vw;
+            width: 90vw;
+            gap: 6vw;
+        }
+.cursoContainerDiv {
+    height: 25.4vw;
+    width: 90vw;
+}
+.cursoContainerDiv img {
+    left: 67vw;
+    height: 19vw;
+    width: 19vw;
+}
+
+.cursoContainerDiv h9 {
+    top: 13.3vw;
+    left: 31vw;
+    font-size: 3.2vw;
+}
+#curso2 h9 {
+    top: 43.7vw;
+    left: 35.3vw;
+}
+#curso3 h9 {
+    top: 75.2vw;
+    left: 22.9vw;
+}
+.cursoContainerDiv h8 {
+    font-size: 4.5vw;
+    top: 2.5vw;
+    left: 42vw;
+}
+#curso2 h8 {
+    top: 34.9vw;
+}
+#curso3 h8 {
+    top: 65.5vw;
+    left: 48.6vw;
+}
+#curso4 h8 {
+    top: 97.5vw;
+    font-size: 4.2vw;
+    left: 21.8vw;
+}
+#curso4 h9 {
+    top: 102.4vw;
+    left: 13.8vw;
+    font-size: 3.2vw;
+}
+#curso5 h8 {
+    top: 128.4vw;
+    left: 22.1vw;
+}
+#curso5 h9 {
+    top: 138.2vw;
+    left: 18.9vw;
+    font-size: 3.2vw;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (min-width: 1250px){
